@@ -1,0 +1,100 @@
+{
+  "workflows": {
+    "workflow_states": {
+      "work_item_creation": "Dopusti stvaranje novih radnih stavki",
+      "work_item_creation_disable_tooltip": "Stvaranje radnih stavki onemogućeno je za ovo stanje",
+      "default_state": "Zadano stanje omogućuje svim članovima stvaranje novih radnih stavki. Ovo nije moguće promijeniti.",
+      "state_change_count": "{count, plural, one {1 dopuštena promjena stanja} few {# dopuštene promjene stanja} other {{count} dopuštenih promjena stanja}}",
+      "movers_count": "{count, plural, one {1 navedeni recenzent} few {# navedena recenzenta} other {{count} navedenih recenzenata}}",
+      "state_changes": {
+        "label": {
+          "default": "Dodaj dopuštenu promjenu stanja",
+          "loading": "Dodavanje dopuštene promjene stanja"
+        },
+        "move_to": "Promijeni stanje u",
+        "movers": {
+          "label": "Kad pregledaju",
+          "tooltip": "Recenzenti smiju premještati radne stavke iz jednog stanja u drugo.",
+          "add": "Dodaj recenzente"
+        }
+      }
+    },
+    "workflow_disabled": {
+      "title": "Ovu radnu stavku ne možeš premjestiti ovdje."
+    },
+    "workflow_enabled": {
+      "label": "Promjena stanja"
+    },
+    "workflow_tree": {
+      "label": "Za radne stavke u stanju",
+      "state_change_label": "moguće je premjestiti u"
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "Upravljaj promjenama i pregledima pomoću tijekova rada.",
+        "description": "Pomoću tijekova rada u Planeu odredi kamo, tko i kada može premjestiti tvoj rad."
+      }
+    },
+    "quick_actions": {
+      "view_change_history": "Prikaži povijest promjena",
+      "reset_workflow": "Vrati tijek rada na početne postavke"
+    },
+    "confirmation_modals": {
+      "reset_workflow": {
+        "title": "Želiš li zaista vratiti tijek rada na početne postavke?",
+        "description": "Ako to učiniš, izbrisat će se sva pravila za promjenu stanja. Morat ćeš ih ponovno stvoriti kako bi se primjenjivala na ovaj projekt."
+      },
+      "delete_state_change": {
+        "title": "Želiš li zaista izbrisati ovo pravilo za promjenu stanja?",
+        "description": "Nakon brisanja ovu promjenu nećeš moći poništiti. Ako želiš da se pravilo primjenjuje na ovaj projekt, morat ćeš ga ponovno postaviti."
+      }
+    },
+    "toasts": {
+      "enable_disable": {
+        "loading": "{action} tijeka rada",
+        "success": {
+          "title": "Uspjeh",
+          "message": "Tijek rada uspješno je {action}"
+        },
+        "error": {
+          "title": "Pogreška",
+          "message": "Tijek rada nije bilo moguće {action}. Pokušaj ponovno."
+        }
+      },
+      "reset": {
+        "success": {
+          "title": "Uspjeh",
+          "message": "Tijek rada uspješno je vraćen na početne postavke"
+        },
+        "error": {
+          "title": "Pogreška pri vraćanju tijeka rada na početne postavke",
+          "message": "Tijek rada nije bilo moguće vratiti na početne postavke. Pokušaj ponovno."
+        }
+      },
+      "add_state_change_rule": {
+        "error": {
+          "title": "Pogreška pri dodavanju pravila za promjenu stanja",
+          "message": "Pravilo za promjenu stanja nije bilo moguće dodati. Pokušaj ponovno."
+        }
+      },
+      "modify_state_change_rule": {
+        "error": {
+          "title": "Pogreška pri izmjeni pravila za promjenu stanja",
+          "message": "Pravilo za promjenu stanja nije bilo moguće izmijeniti. Pokušaj ponovno."
+        }
+      },
+      "remove_state_change_rule": {
+        "error": {
+          "title": "Pogreška pri uklanjanju pravila za promjenu stanja",
+          "message": "Pravilo za promjenu stanja nije bilo moguće ukloniti. Pokušaj ponovno."
+        }
+      },
+      "modify_state_change_rule_movers": {
+        "error": {
+          "title": "Pogreška pri izmjeni recenzenata pravila za promjenu stanja",
+          "message": "Recenzente pravila za promjenu stanja nije bilo moguće izmijeniti. Pokušaj ponovno."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "command_k": {
+    "empty_state": {
+      "search": {
+        "title": "Nema rezultata"
+      }
+    }
+  },
+  "sidebar": {
+    "stickies": "Stickies",
+    "your_work": "Tvoj rad",
+    "projects": "Projekti",
+    "pages": "Stranice",
+    "new_work_item": "Nova radna stavka",
+    "home": "Početna",
+    "inbox": "Pristigla pošta",
+    "workspace": "Radni prostor",
+    "views": "Prikazi",
+    "analytics": "Analitika",
+    "work_items": "Radne stavke",
+    "cycles": "Ciklusi",
+    "modules": "Moduli",
+    "intake": "Intake",
+    "drafts": "Skice",
+    "favorites": "Favoriti",
+    "pro": "Pro",
+    "upgrade": "Nadogradi",
+    "pi_chat": "Plane AI",
+    "epics": "Epovi",
+    "upgrade_plan": "Nadogradi plan",
+    "plane_pro": "Plane Pro",
+    "business": "Business"
+  }
+}

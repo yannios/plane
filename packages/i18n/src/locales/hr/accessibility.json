@@ -1,0 +1,47 @@
+{
+  "aria_labels": {
+    "projects_sidebar": {
+      "workspace_logo": "Logotip radnog prostora",
+      "open_workspace_switcher": "Otvori izbornik za promjenu radnog prostora",
+      "open_user_menu": "Otvori korisnički izbornik",
+      "open_command_palette": "Otvori paletu naredbi",
+      "open_extended_sidebar": "Otvori proširenu bočnu traku",
+      "close_extended_sidebar": "Zatvori proširenu bočnu traku",
+      "create_favorites_folder": "Stvori mapu favorita",
+      "open_folder": "Otvori mapu",
+      "close_folder": "Zatvori mapu",
+      "open_favorites_menu": "Otvori izbornik favorita",
+      "close_favorites_menu": "Zatvori izbornik favorita",
+      "enter_folder_name": "Unesi naziv mape",
+      "create_new_project": "Stvori novi projekt",
+      "open_projects_menu": "Otvori izbornik projekata",
+      "close_projects_menu": "Zatvori izbornik projekata",
+      "toggle_quick_actions_menu": "Prikaži ili sakrij izbornik brzih radnji",
+      "open_project_menu": "Otvori izbornik projekta",
+      "close_project_menu": "Zatvori izbornik projekta",
+      "collapse_sidebar": "Skupi bočnu traku",
+      "expand_sidebar": "Proširi bočnu traku",
+      "edition_badge": "Otvori modalni prozor s plaćenim planovima"
+    },
+    "auth_forms": {
+      "clear_email": "Izbriši adresu e-pošte",
+      "show_password": "Prikaži lozinku",
+      "hide_password": "Sakrij lozinku",
+      "close_alert": "Zatvori upozorenje",
+      "close_popover": "Zatvori skočni prozor"
+    },
+    "breadcrumb": {
+      "trail": "Navigacijska putanja",
+      "show_more": "Prikaži više stavki navigacijske putanje"
+    },
+    "common": {
+      "more_actions": "Više radnji",
+      "remove": "Ukloni"
+    },
+    "color_picker": {
+      "open": "Otvori birač boja",
+      "swatches": "Unaprijed postavljene boje",
+      "hex_input": "Boja u HEX formatu"
+    }
+  }
+}

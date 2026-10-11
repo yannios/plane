@@ -1,0 +1,77 @@
+{
+  "home": {
+    "empty": {
+      "quickstart_guide": "Vodič za brzi početak",
+      "not_right_now": "Ne sada",
+      "create_project": {
+        "title": "Stvori projekt",
+        "description": "Većina stvari u Planeu počinje projektom.",
+        "cta": "Započni"
+      },
+      "invite_team": {
+        "title": "Pozovi svoj tim",
+        "description": "Stvaraj, isporučuj i upravljaj zajedno s kolegama.",
+        "cta": "Pozovi ih"
+      },
+      "configure_workspace": {
+        "title": "Postavi svoj radni prostor.",
+        "description": "Uključi ili isključi značajke i prilagodi još mnogo toga.",
+        "cta": "Konfiguriraj ovaj radni prostor"
+      },
+      "personalize_account": {
+        "title": "Prilagodi Plane sebi.",
+        "description": "Odaberi svoju sliku, boje i ostale postavke.",
+        "cta": "Prilagodi sada"
+      },
+      "widgets": {
+        "title": "Bez widgeta je tiho. Uključi ih",
+        "description": "Čini se da su svi tvoji widgeti isključeni. Uključi ih\nsada kako bi poboljšao/la svoje iskustvo.",
+        "primary_button": {
+          "text": "Upravljaj widgetima"
+        }
+      }
+    },
+    "quick_links": {
+      "empty": "Spremi poveznice na radne stavke koje želiš imati pri ruci.",
+      "add": "Dodaj brzu poveznicu",
+      "title": "Brza poveznica",
+      "title_plural": "Brze poveznice"
+    },
+    "recents": {
+      "title": "Nedavno",
+      "empty": {
+        "project": "Nedavno posjećeni projekti prikazat će se ovdje.",
+        "page": "Nedavno posjećene stranice prikazat će se ovdje.",
+        "issue": "Nedavno posjećene radne stavke prikazat će se ovdje.",
+        "default": "Još nema nedavnih stavki."
+      },
+      "filters": {
+        "all": "Sve",
+        "projects": "Projekti",
+        "pages": "Stranice",
+        "issues": "Radne stavke"
+      }
+    },
+    "new_at_plane": {
+      "title": "Novo u Planeu"
+    },
+    "quick_tutorial": {
+      "title": "Brzi vodič"
+    },
+    "widget": {
+      "reordered_successfully": "Redoslijed widgeta uspješno je promijenjen.",
+      "reordering_failed": "Došlo je do pogreške pri promjeni redoslijeda widgeta."
+    },
+    "manage_widgets": "Upravljaj widgetima",
+    "title": "Početna",
+    "star_us_on_github": "Označi nas zvjezdicom na GitHubu",
+    "business_trial_banner": {
+      "title": "Probno razdoblje plana Business od 14 dana je aktivno!",
+      "description": "Istraži sve značajke plana Business. Kad budeš spreman/spremna, odaberi pretplatu. Pretplata ti neće biti automatski naplaćena.",
+      "trial_ends_today": "Probno razdoblje završava danas",
+      "trial_ends_in_days": "Probno razdoblje završava za {days, plural, one {# dan} few {# dana} other {# dana}}",
+      "start_subscription": "Započni pretplatu",
+      "explore_business_features": "Istraži značajke plana Business"
+    }
+  }
+}

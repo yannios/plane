@@ -1,0 +1,378 @@
+{
+  "workspace_creation": {
+    "heading": "Stvori radni prostor",
+    "subheading": "Za početak rada u Planeu moraš stvoriti radni prostor ili se pridružiti postojećem.",
+    "form": {
+      "name": {
+        "label": "Dodijeli naziv radnom prostoru",
+        "placeholder": "Najbolji je naziv koji je poznat i prepoznatljiv."
+      },
+      "url": {
+        "label": "Postavi URL radnog prostora",
+        "placeholder": "Upiši ili zalijepi URL",
+        "edit_slug": "Možeš urediti samo završni dio URL-a"
+      },
+      "organization_size": {
+        "label": "Koliko će osoba upotrebljavati ovaj radni prostor?",
+        "placeholder": "Odaberi raspon"
+      }
+    },
+    "errors": {
+      "creation_disabled": {
+        "title": "Samo administrator instance može stvarati radne prostore",
+        "description": "Ako znaš adresu e-pošte administratora instance, klikni gumb u nastavku da mu se obratiš.",
+        "request_button": "Obrati se administratoru instance"
+      },
+      "validation": {
+        "name_alphanumeric": "Nazivi radnih prostora mogu sadržavati samo (' '), ('-'), ('_') i alfanumeričke znakove.",
+        "name_length": "Naziv može imati najviše 80 znakova.",
+        "url_alphanumeric": "URL-ovi mogu sadržavati samo ('-') i alfanumeričke znakove.",
+        "url_length": "URL može imati najviše 48 znakova.",
+        "url_already_taken": "URL radnog prostora već se upotrebljava!"
+      }
+    },
+    "request_email": {
+      "subject": "Zahtjev za novi radni prostor",
+      "body": "Pozdrav, administratori instance,\n\nMolim vas da stvorite novi radni prostor s URL-om [/workspace-name] za [svrha stvaranja radnog prostora].\n\nHvala,\n{firstName} {lastName}\n{email}"
+    },
+    "button": {
+      "default": "Stvori radni prostor",
+      "loading": "Stvaranje radnog prostora"
+    },
+    "toast": {
+      "success": {
+        "title": "Uspješno",
+        "message": "Radni prostor uspješno je stvoren"
+      },
+      "error": {
+        "title": "Pogreška",
+        "message": "Radni prostor nije bilo moguće stvoriti. Pokušaj ponovno."
+      }
+    }
+  },
+  "workspace_dashboard": {
+    "empty_state": {
+      "general": {
+        "title": "Pregled projekata, aktivnosti i mjernih podataka",
+        "description": "Dobro došao u Plane, drago nam je što si ovdje. Stvori prvi projekt i prati radne stavke kako bi se ova stranica pretvorila u prostor koji ti pomaže napredovati. Administratori će vidjeti i stavke koje pomažu napretku tima.",
+        "primary_button": {
+          "text": "Stvori prvi projekt",
+          "comic": {
+            "title": "U Planeu sve počinje projektom",
+            "description": "Projekt može biti plan razvoja proizvoda, marketinška kampanja ili lansiranje novog automobila."
+          }
+        }
+      }
+    }
+  },
+  "workspace_analytics": {
+    "label": "Analitika",
+    "page_label": "{workspace} - Analitika",
+    "open_tasks": "Ukupno otvorenih zadataka",
+    "error": "Došlo je do pogreške pri dohvaćanju podataka.",
+    "work_items_closed_in": "Radne stavke zatvorene u",
+    "selected_projects": "Odabrani projekti",
+    "total_members": "Ukupno članova",
+    "total_cycles": "Ukupno ciklusa",
+    "total_modules": "Ukupno modula",
+    "pending_work_items": {
+      "title": "Radne stavke na čekanju",
+      "empty_state": "Ovdje će se prikazati analiza radnih stavki na čekanju po suradnicima."
+    },
+    "work_items_closed_in_a_year": {
+      "title": "Radne stavke zatvorene tijekom godine",
+      "empty_state": "Zatvori radne stavke da bi se njihova analiza prikazala u obliku grafikona."
+    },
+    "most_work_items_created": {
+      "title": "Najviše stvorenih radnih stavki",
+      "empty_state": "Ovdje će se prikazati suradnici i broj radnih stavki koje su stvorili."
+    },
+    "most_work_items_closed": {
+      "title": "Najviše zatvorenih radnih stavki",
+      "empty_state": "Ovdje će se prikazati suradnici i broj radnih stavki koje su zatvorili."
+    },
+    "tabs": {
+      "scope_and_demand": "Opseg i potražnja",
+      "custom": "Prilagođena analitika"
+    },
+    "total": "Ukupno: {entity}",
+    "started_work_items": "Započeto: {entity}",
+    "backlog_work_items": "Zaostatak: {entity}",
+    "un_started_work_items": "Nije započeto: {entity}",
+    "completed_work_items": "Dovršeno: {entity}",
+    "project_insights": "Uvidi u projekt",
+    "summary_of_projects": "Sažetak projekata",
+    "all_projects": "Svi projekti",
+    "trend_on_charts": "Trendovi na grafikonima",
+    "active_projects": "Aktivni projekti",
+    "customized_insights": "Prilagođeni uvidi",
+    "created_vs_resolved": "Stvoreno i riješeno",
+    "empty_state": {
+      "project_insights": {
+        "title": "Još nema podataka",
+        "description": "Ovdje će se prikazati radne stavke dodijeljene tebi, razvrstane prema stanju."
+      },
+      "created_vs_resolved": {
+        "title": "Još nema podataka",
+        "description": "Ovdje će se prikazati radne stavke stvorene i riješene tijekom vremena."
+      },
+      "customized_insights": {
+        "title": "Još nema podataka",
+        "description": "Ovdje će se prikazati radne stavke dodijeljene tebi, razvrstane prema stanju."
+      },
+      "general": {
+        "title": "Prati napredak, opterećenje i raspodjelu rada. Uoči trendove, ukloni prepreke i ubrzaj rad.",
+        "description": "Prati opseg u odnosu na potražnju, procjene i širenje opsega. Pregledaj rezultate članova tima i timova te osiguraj pravodobno dovršenje projekta.",
+        "primary_button": {
+          "text": "Pokreni prvi projekt",
+          "comic": {
+            "title": "Analitika najbolje funkcionira uz cikluse i module",
+            "description": "Najprije vremenski ograniči radne stavke ciklusima, a ako možeš, grupiraj stavke koje traju dulje od jednog ciklusa u module. Pronađi ih u lijevoj navigaciji."
+          }
+        }
+      },
+      "cycle_progress": {
+        "title": "Još nema podataka",
+        "description": "Ovdje će se prikazati analitika napretka ciklusa. Dodaj radne stavke u cikluse za početak praćenja napretka."
+      },
+      "module_progress": {
+        "title": "Još nema podataka",
+        "description": "Ovdje će se prikazati analitika napretka modula. Dodaj radne stavke u module za početak praćenja napretka."
+      },
+      "intake_trends": {
+        "title": "Još nema podataka",
+        "description": "Ovdje će se prikazati analitika trendova značajke Intake. Dodaj radne stavke u Intake za početak praćenja trendova."
+      }
+    },
+    "upgrade_to_plan": "Nadogradi na plan {plan} da otključaš {tab}",
+    "workitem_resolved_vs_pending": "Riješene radne stavke u odnosu na one na čekanju",
+    "projects_by_status": "Projekti prema stanju",
+    "active_users": "Aktivni korisnici",
+    "intake_trends": "Trendovi značajke Intake"
+  },
+  "workspace_projects": {
+    "label": "{count, plural, one {projekt} few {projekta} other {projekata}}",
+    "create": {
+      "label": "Dodaj projekt"
+    },
+    "network": {
+      "label": "Mreža",
+      "private": {
+        "title": "Privatno",
+        "description": "Dostupno samo uz pozivnicu"
+      },
+      "public": {
+        "title": "Javno",
+        "description": "Svi u radnom prostoru osim gostiju mogu se pridružiti"
+      }
+    },
+    "error": {
+      "permission": "Nemaš dopuštenje za ovu radnju.",
+      "cycle_delete": "Brisanje ciklusa nije uspjelo",
+      "module_delete": "Brisanje modula nije uspjelo",
+      "issue_delete": "Brisanje radne stavke nije uspjelo"
+    },
+    "state": {
+      "backlog": "Zaostatak",
+      "unstarted": "Nije započeto",
+      "started": "Započeto",
+      "completed": "Dovršeno",
+      "cancelled": "Otkazano"
+    },
+    "sort": {
+      "manual": "Ručno",
+      "name": "Naziv",
+      "created_at": "Datum stvaranja",
+      "members_length": "Broj članova"
+    },
+    "scope": {
+      "my_projects": "Moji projekti",
+      "archived_projects": "Arhivirano"
+    },
+    "common": {
+      "months_count": "{months, plural, one{# mjesec} few{# mjeseca} other{# mjeseci}}",
+      "days_count": "{days, plural, one{# dan} few{# dana} other{# dana}}"
+    },
+    "empty_state": {
+      "general": {
+        "title": "Nema aktivnih projekata",
+        "description": "Projekt je nadređena cjelina za rad usmjeren na cilj. U projektima se nalaze zadaci, ciklusi i moduli koji ti i suradnicima pomažu ostvariti cilj. Stvori novi projekt ili filtriraj arhivirane projekte.",
+        "primary_button": {
+          "text": "Pokreni prvi projekt",
+          "comic": {
+            "title": "U Planeu sve počinje projektom",
+            "description": "Projekt može biti plan razvoja proizvoda, marketinška kampanja ili lansiranje novog automobila."
+          }
+        }
+      },
+      "no_projects": {
+        "title": "Nema projekata",
+        "description": "Za stvaranje radnih stavki ili upravljanje radom moraš stvoriti projekt ili postati njegov član.",
+        "primary_button": {
+          "text": "Pokreni prvi projekt",
+          "comic": {
+            "title": "U Planeu sve počinje projektom",
+            "description": "Projekt može biti plan razvoja proizvoda, marketinška kampanja ili lansiranje novog automobila."
+          }
+        }
+      },
+      "filter": {
+        "title": "Nema odgovarajućih projekata",
+        "description": "Nema projekata koji odgovaraju kriterijima.\nUmjesto toga stvori novi projekt."
+      },
+      "search": {
+        "description": "Nema projekata koji odgovaraju kriterijima.\nUmjesto toga stvori novi projekt"
+      }
+    }
+  },
+  "workspace_views": {
+    "add_view": "Dodaj prikaz",
+    "empty_state": {
+      "all-issues": {
+        "title": "U projektu nema radnih stavki",
+        "description": "Prvi projekt je spreman! Sada podijeli posao na manje cjeline koje možeš pratiti pomoću radnih stavki.",
+        "primary_button": {
+          "text": "Stvori novu radnu stavku"
+        }
+      },
+      "assigned": {
+        "title": "Još nema radnih stavki",
+        "description": "Ovdje možeš pratiti radne stavke koje su ti dodijeljene.",
+        "primary_button": {
+          "text": "Stvori novu radnu stavku"
+        }
+      },
+      "created": {
+        "title": "Još nema radnih stavki",
+        "description": "Ovdje se prikazuju sve radne stavke koje stvoriš i možeš ih izravno pratiti.",
+        "primary_button": {
+          "text": "Stvori novu radnu stavku"
+        }
+      },
+      "subscribed": {
+        "title": "Još nema radnih stavki",
+        "description": "Pretplati se na radne stavke koje te zanimaju i prati ih ovdje."
+      },
+      "custom-view": {
+        "title": "Još nema radnih stavki",
+        "description": "Ovdje prati radne stavke koje odgovaraju filtrima."
+      }
+    },
+    "delete_view": {
+      "title": "Želiš li zaista izbrisati ovaj prikaz?",
+      "content": "Potvrdom će se trajno izbrisati sve odabrane opcije sortiranja, filtriranja i prikaza te raspored ovog prikaza. Nije ih moguće vratiti."
+    }
+  },
+  "workspace_draft_issues": {
+    "draft_an_issue": "Izradi skicu radne stavke",
+    "empty_state": {
+      "title": "Ovdje će se prikazati nedovršene radne stavke, a uskoro i komentari.",
+      "description": "Isprobaj tako da započneš stvaranje radne stavke i ostaviš je nedovršenom ili u nastavku stvoriš prvu skicu.",
+      "primary_button": {
+        "text": "Stvori prvu skicu"
+      }
+    },
+    "delete_modal": {
+      "title": "Izbriši skicu",
+      "description": "Želiš li zaista izbrisati ovu skicu? Ovu radnju nije moguće poništiti."
+    },
+    "toasts": {
+      "created": {
+        "success": "Skica je stvorena",
+        "error": "Radnu stavku nije bilo moguće stvoriti. Pokušaj ponovno."
+      },
+      "deleted": {
+        "success": "Skica je izbrisana"
+      }
+    }
+  },
+  "workspace_pages": {
+    "empty_state": {
+      "general": {
+        "title": "Write a note, a doc, or a full knowledge base. Get Galileo, Plane's AI assistant, to help you get started",
+        "description": "Pages are thoughts potting space in Plane. Take down meeting notes, format them easily, embed work items, lay them out using a library of components, and keep them all in your project's context. To make short work of any doc, invoke Galileo, Plane's AI, with a shortcut or the click of a button.",
+        "primary_button": {
+          "text": "Create your first page"
+        }
+      },
+      "private": {
+        "title": "No private pages yet",
+        "description": "Keep your private thoughts here. When you're ready to share, the team's just a click away.",
+        "primary_button": {
+          "text": "Create your first page"
+        }
+      },
+      "public": {
+        "title": "No workspace pages yet",
+        "description": "See pages shared with everyone in your workspace right here.",
+        "primary_button": {
+          "text": "Create your first page"
+        }
+      },
+      "archived": {
+        "title": "No archived pages yet",
+        "description": "Archive pages not on your radar. Access them here when needed."
+      },
+      "shared": {
+        "title": "No shared pages yet",
+        "description": "Pages that others have shared with you will appear here."
+      }
+    }
+  },
+  "workspace_cycles": {
+    "empty_state": {
+      "active": {
+        "title": "No active cycles",
+        "description": "Cycles of your projects that includes any period that encompasses today's date within its range. Find the progress and details of all your active cycle here."
+      }
+    }
+  },
+  "workspace": {
+    "members_import": {
+      "title": "Import Members from CSV",
+      "description": "Upload a CSV with columns: Email, Display Name, First Name, Last Name, Role (5, 15, or 20)",
+      "dropzone": {
+        "active": "Drop CSV file here",
+        "inactive": "Drag & drop or click to upload",
+        "file_type": "Only .csv files supported"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "import": "Import",
+        "try_again": "Try Again",
+        "close": "Close",
+        "done": "Done"
+      },
+      "progress": {
+        "uploading": "Uploading...",
+        "importing": "Importing..."
+      },
+      "summary": {
+        "title": {
+          "failed": "Import Failed",
+          "complete": "Import Complete"
+        },
+        "message": {
+          "seat_limit": "Unable to import members due to seat limit restrictions.",
+          "success": "Successfully added {count} member{plural} to the workspace.",
+          "no_imports": "No members were imported from the CSV file."
+        },
+        "stats": {
+          "successful": "Successful",
+          "failed": "Failed"
+        },
+        "download_errors": "Download errors"
+      },
+      "toast": {
+        "invalid_file": {
+          "title": "Invalid file",
+          "message": "Only CSV files are supported."
+        },
+        "import_failed": {
+          "title": "Import failed",
+          "message": "Something went wrong."
+        }
+      }
+    }
+  }
+}

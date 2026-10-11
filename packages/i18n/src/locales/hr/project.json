@@ -1,0 +1,418 @@
+{
+  "project_view": {
+    "sort_by": {
+      "created_at": "Datum stvaranja",
+      "updated_at": "Datum ažuriranja",
+      "name": "Naziv"
+    }
+  },
+  "project_cycles": {
+    "add_cycle": "Dodaj ciklus",
+    "more_details": "Više pojedinosti",
+    "cycle": "Ciklus",
+    "update_cycle": "Ažuriraj ciklus",
+    "create_cycle": "Stvori ciklus",
+    "no_matching_cycles": "Nema odgovarajućih ciklusa",
+    "remove_filters_to_see_all_cycles": "Ukloni filtre za prikaz svih ciklusa",
+    "remove_search_criteria_to_see_all_cycles": "Ukloni kriterije pretraživanja za prikaz svih ciklusa",
+    "only_completed_cycles_can_be_archived": "Arhivirati je moguće samo dovršene cikluse",
+    "start_date": "Datum početka",
+    "end_date": "Datum završetka",
+    "in_your_timezone": "U tvojoj vremenskoj zoni",
+    "transfer_work_items": "Prenesi {count} radnih stavki",
+    "transfer": {
+      "no_cycles_available": "Nema drugih ciklusa u koje je moguće prenijeti radne stavke."
+    },
+    "date_range": "Raspon datuma",
+    "add_date": "Dodaj datum",
+    "active_cycle": {
+      "label": "Aktivni ciklus",
+      "progress": "Napredak",
+      "chart": "Grafikon preostalog rada",
+      "priority_issue": "Prioritetne radne stavke",
+      "assignees": "Izvođači",
+      "issue_burndown": "Preostali rad na stavkama",
+      "ideal": "Idealno",
+      "current": "Trenutačno",
+      "labels": "Oznake",
+      "trailing": "Zaostaje",
+      "leading": "Prednjači"
+    },
+    "upcoming_cycle": {
+      "label": "Nadolazeći ciklus"
+    },
+    "completed_cycle": {
+      "label": "Dovršeni ciklus"
+    },
+    "status": {
+      "days_left": "Preostali dani",
+      "completed": "Dovršeno",
+      "yet_to_start": "Još nije započelo",
+      "in_progress": "U tijeku",
+      "draft": "Skica"
+    },
+    "action": {
+      "restore": {
+        "title": "Vrati ciklus",
+        "success": {
+          "title": "Ciklus je vraćen",
+          "description": "Ciklus je vraćen."
+        },
+        "failed": {
+          "title": "Vraćanje ciklusa nije uspjelo",
+          "description": "Ciklus nije bilo moguće vratiti. Pokušaj ponovno."
+        }
+      },
+      "favorite": {
+        "loading": "Dodavanje ciklusa u favorite",
+        "success": {
+          "description": "Ciklus je dodan u favorite.",
+          "title": "Uspješno!"
+        },
+        "failed": {
+          "description": "Ciklus nije bilo moguće dodati u favorite. Pokušaj ponovno.",
+          "title": "Pogreška!"
+        }
+      },
+      "unfavorite": {
+        "loading": "Uklanjanje ciklusa iz favorita",
+        "success": {
+          "description": "Ciklus je uklonjen iz favorita.",
+          "title": "Uspješno!"
+        },
+        "failed": {
+          "description": "Ciklus nije bilo moguće ukloniti iz favorita. Pokušaj ponovno.",
+          "title": "Pogreška!"
+        }
+      },
+      "update": {
+        "loading": "Ažuriranje ciklusa",
+        "success": {
+          "description": "Ciklus je uspješno ažuriran.",
+          "title": "Uspješno!"
+        },
+        "failed": {
+          "description": "Pogreška pri ažuriranju ciklusa. Pokušaj ponovno.",
+          "title": "Pogreška!"
+        },
+        "error": {
+          "already_exists": "Već postoji ciklus za navedene datume. Ako želiš stvoriti skicu ciklusa, ukloni oba datuma."
+        }
+      }
+    },
+    "empty_state": {
+      "general": {
+        "title": "Grupiraj rad i vremenski ga ograniči ciklusima.",
+        "description": "Podijeli rad na vremenski ograničene cjeline, odredi datume polazeći od roka projekta i zajedno ostvarujte konkretan napredak.",
+        "primary_button": {
+          "text": "Postavi prvi ciklus",
+          "comic": {
+            "title": "Ciklusi su ponavljajuća vremenska razdoblja.",
+            "description": "Sprint, iteracija ili bilo koji drugi naziv za tjedno ili dvotjedno praćenje rada predstavlja ciklus."
+          }
+        }
+      },
+      "no_issues": {
+        "title": "U ciklus nisu dodane radne stavke",
+        "description": "Dodaj ili stvori radne stavke koje želiš vremenski ograničiti i dovršiti tijekom ovog ciklusa",
+        "primary_button": {
+          "text": "Stvori novu radnu stavku"
+        },
+        "secondary_button": {
+          "text": "Dodaj postojeću radnu stavku"
+        }
+      },
+      "completed_no_issues": {
+        "title": "Nema radnih stavki u ciklusu",
+        "description": "U ciklusu nema radnih stavki. Stavke su prenesene ili skrivene. Ako postoje skrivene stavke, prilagodi postavke prikaza kako bi ih vidio."
+      },
+      "active": {
+        "title": "Nema aktivnog ciklusa",
+        "description": "Aktivni ciklus obuhvaća razdoblje unutar kojeg se nalazi današnji datum. Ovdje možeš pronaći njegov napredak i pojedinosti."
+      },
+      "archived": {
+        "title": "Još nema arhiviranih ciklusa",
+        "description": "Arhiviraj dovršene cikluse kako bi uredio projekt. Ovdje ćeš ih pronaći nakon arhiviranja."
+      }
+    }
+  },
+  "project_views": {
+    "empty_state": {
+      "general": {
+        "title": "Spremi filtrirane prikaze projekta. Stvori ih koliko god ti treba",
+        "description": "Prikazi su spremljeni skupovi filtara koje često upotrebljavaš ili želiš imati pri ruci. Svi suradnici u projektu mogu vidjeti prikaze drugih i odabrati onaj koji im najviše odgovara.",
+        "primary_button": {
+          "text": "Stvori prvi prikaz",
+          "comic": {
+            "title": "Prikazi se temelje na svojstvima radnih stavki.",
+            "description": "Ovdje možeš stvoriti prikaz s bilo kojim brojem svojstava i filtara."
+          }
+        },
+        "filter": {
+          "title": "Nema odgovarajućih prikaza",
+          "description": "Nijedan prikaz ne odgovara kriterijima pretraživanja.\nUmjesto toga stvori novi prikaz."
+        }
+      },
+      "no_archived_issues": {
+        "title": "Još nema arhiviranih radnih stavki",
+        "description": "Dovršene ili otkazane radne stavke možeš arhivirati ručno ili automatizacijom. Ovdje ćeš ih pronaći nakon arhiviranja.",
+        "primary_button": {
+          "text": "Postavi automatizaciju"
+        }
+      },
+      "issues_empty_filter": {
+        "title": "Nema radnih stavki koje odgovaraju primijenjenim filtrima",
+        "secondary_button": {
+          "text": "Ukloni sve filtre"
+        }
+      },
+      "public": {
+        "title": "Još nema javnih stranica",
+        "description": "Ovdje pogledaj stranice podijeljene sa svima u projektu.",
+        "primary_button": {
+          "text": "Stvori prvu stranicu"
+        }
+      },
+      "archived": {
+        "title": "Još nema arhiviranih stranica",
+        "description": "Arhiviraj stranice koje ti trenutačno nisu potrebne. Ovdje im možeš pristupiti kad zatrebaju."
+      },
+      "shared": {
+        "title": "Još nema podijeljenih stranica",
+        "description": "Ovdje će se prikazati stranice koje su drugi podijelili s tobom."
+      }
+    },
+    "delete_view": {
+      "title": "Želiš li zaista izbrisati ovaj prikaz?",
+      "content": "Potvrdom će se trajno izbrisati sve odabrane opcije sortiranja, filtriranja i prikaza te raspored ovog prikaza. Nije ih moguće vratiti."
+    }
+  },
+  "project_issues": {
+    "empty_state": {
+      "no_issues": {
+        "title": "Stvori radnu stavku i dodijeli je nekome, pa i sebi",
+        "description": "Radne stavke predstavljaju zadatke i posao koji treba obaviti. Obično su to vremenski ograničene aktivnosti dodijeljene članovima tima. Tim stvara, dodjeljuje i dovršava radne stavke kako bi projekt napredovao prema cilju.",
+        "primary_button": {
+          "text": "Stvori prvu radnu stavku",
+          "comic": {
+            "title": "Radne stavke temelj su rada u Planeu.",
+            "description": "Redizajn Plane sučelja, promjena brenda tvrtke ili pokretanje novog sustava ubrizgavanja goriva primjeri su radnih stavki koje mogu imati podstavke."
+          }
+        }
+      },
+      "no_archived_issues": {
+        "title": "Još nema arhiviranih radnih stavki",
+        "description": "Dovršene ili otkazane radne stavke možeš arhivirati ručno ili automatizacijom. Ovdje ćeš ih pronaći nakon arhiviranja.",
+        "primary_button": {
+          "text": "Postavi automatizaciju"
+        }
+      },
+      "issues_empty_filter": {
+        "title": "Nema radnih stavki koje odgovaraju primijenjenim filtrima",
+        "secondary_button": {
+          "text": "Ukloni sve filtre"
+        }
+      }
+    }
+  },
+  "project_module": {
+    "add_module": "Dodaj modul",
+    "update_module": "Ažuriraj modul",
+    "create_module": "Stvori modul",
+    "archive_module": "Arhiviraj modul",
+    "restore_module": "Vrati modul",
+    "delete_module": "Izbriši modul",
+    "empty_state": {
+      "general": {
+        "title": "Poveži ključne prekretnice projekta s modulima i jednostavno prati objedinjeni rad.",
+        "description": "Modul je skup radnih stavki povezanih s logičkom nadređenom cjelinom. Služi za praćenje rada prema projektnim prekretnicama. Ima vlastita razdoblja, rokove i analitiku koja pokazuje koliko si blizu prekretnice.",
+        "primary_button": {
+          "text": "Stvori prvi modul",
+          "comic": {
+            "title": "Moduli grupiraju rad prema hijerarhiji.",
+            "description": "Modul košarice, modul šasije i modul skladišta primjeri su takvog grupiranja."
+          }
+        }
+      },
+      "no_issues": {
+        "title": "U modulu nema radnih stavki",
+        "description": "Stvori ili dodaj radne stavke koje želiš dovršiti u sklopu ovog modula",
+        "primary_button": {
+          "text": "Stvori nove radne stavke"
+        },
+        "secondary_button": {
+          "text": "Dodaj postojeću radnu stavku"
+        }
+      },
+      "archived": {
+        "title": "Još nema arhiviranih modula",
+        "description": "Arhiviraj dovršene ili otkazane module kako bi uredio projekt. Ovdje ćeš ih pronaći nakon arhiviranja."
+      },
+      "sidebar": {
+        "in_active": "Ovaj modul još nije aktivan.",
+        "invalid_date": "Nevaljan datum. Unesi valjan datum."
+      }
+    },
+    "quick_actions": {
+      "archive_module": "Arhiviraj modul",
+      "archive_module_description": "Arhivirati je moguće samo dovršene ili otkazane\nmodule.",
+      "delete_module": "Izbriši modul"
+    },
+    "toast": {
+      "copy": {
+        "success": "Poveznica na modul kopirana je u međuspremnik"
+      },
+      "delete": {
+        "success": "Modul je uspješno izbrisan",
+        "error": "Brisanje modula nije uspjelo"
+      }
+    }
+  },
+  "project_page": {
+    "empty_state": {
+      "general": {
+        "title": "Napiši bilješku, dokument ili cijelu bazu znanja. Započni uz pomoć Galilea, Planeova AI asistenta",
+        "description": "Stranice su prostor za ideje u Planeu. Zapisuj bilješke sa sastanaka, jednostavno ih oblikuj, ugrađuj radne stavke, slaži ih pomoću biblioteke komponenti i zadrži ih u kontekstu projekta. Za bržu izradu dokumenta pozovi Galileo, Plane AI, prečacem ili klikom na gumb.",
+        "primary_button": {
+          "text": "Stvori prvu stranicu"
+        }
+      },
+      "private": {
+        "title": "Još nema privatnih stranica",
+        "description": "Ovdje čuvaj privatne bilješke. Kad ih budeš spreman podijeliti, tim ti je nadohvat klika.",
+        "primary_button": {
+          "text": "Stvori prvu stranicu"
+        }
+      },
+      "public": {
+        "title": "Još nema javnih stranica",
+        "description": "Ovdje pogledaj stranice podijeljene sa svima u projektu.",
+        "primary_button": {
+          "text": "Stvori prvu stranicu"
+        }
+      },
+      "archived": {
+        "title": "Još nema arhiviranih stranica",
+        "description": "Arhiviraj stranice koje ti trenutačno nisu potrebne. Ovdje im možeš pristupiti kad zatrebaju."
+      }
+    }
+  },
+  "disabled_project": {
+    "empty_state": {
+      "inbox": {
+        "title": "Intake nije omogućen za projekt.",
+        "description": "Intake ti pomaže upravljati dolaznim zahtjevima za projekt i dodavati ih kao radne stavke u tijek rada. Omogući Intake u postavkama projekta za upravljanje zahtjevima.",
+        "primary_button": {
+          "text": "Upravljaj značajkama"
+        }
+      },
+      "cycle": {
+        "title": "Ciklusi nisu omogućeni za ovaj projekt.",
+        "description": "Podijeli rad na vremenski ograničene cjeline, odredi datume polazeći od roka projekta i zajedno ostvarujte konkretan napredak. Omogući cikluse za projekt kako biste ih počeli upotrebljavati.",
+        "primary_button": {
+          "text": "Upravljaj značajkama"
+        }
+      },
+      "module": {
+        "title": "Moduli nisu omogućeni za projekt.",
+        "description": "Moduli su temeljne cjeline projekta. Omogući ih u postavkama projekta kako bi ih počeo upotrebljavati.",
+        "primary_button": {
+          "text": "Upravljaj značajkama"
+        }
+      },
+      "page": {
+        "title": "Stranice nisu omogućene za projekt.",
+        "description": "Stranice su temeljne cjeline projekta. Omogući ih u postavkama projekta kako bi ih počeo upotrebljavati.",
+        "primary_button": {
+          "text": "Upravljaj značajkama"
+        }
+      },
+      "view": {
+        "title": "Prikazi nisu omogućeni za projekt.",
+        "description": "Prikazi su temeljne cjeline projekta. Omogući ih u postavkama projekta kako bi ih počeo upotrebljavati.",
+        "primary_button": {
+          "text": "Upravljaj značajkama"
+        }
+      }
+    }
+  },
+  "project_modules": {
+    "status": {
+      "backlog": "Zaostatak",
+      "planned": "Planirano",
+      "in_progress": "U tijeku",
+      "paused": "Pauzirano",
+      "completed": "Dovršeno",
+      "cancelled": "Otkazano"
+    },
+    "layout": {
+      "list": "Prikaz popisa",
+      "board": "Prikaz galerije",
+      "timeline": "Prikaz vremenske crte"
+    },
+    "order_by": {
+      "name": "Naziv",
+      "progress": "Napredak",
+      "issues": "Broj radnih stavki",
+      "due_date": "Krajnji rok",
+      "created_at": "Datum stvaranja",
+      "manual": "Ručno"
+    }
+  },
+  "project_members": {
+    "full_name": "Ime i prezime",
+    "display_name": "Ime za prikaz",
+    "email": "E-pošta",
+    "joining_date": "Datum pridruživanja",
+    "role": "Uloga"
+  },
+  "project": {
+    "members_import": {
+      "title": "Uvezi članove iz CSV-a",
+      "description": "Prenesi CSV s stupcima: Email i Role (5=Guest, 15=Member, 20=Admin). Korisnici već moraju biti članovi radnog prostora.",
+      "download_sample": "Preuzmi ogledni CSV",
+      "dropzone": {
+        "active": "Ispusti CSV datoteku ovdje",
+        "inactive": "Povuci i ispusti ili klikni za prijenos",
+        "file_type": "Podržane su samo .csv datoteke"
+      },
+      "buttons": {
+        "cancel": "Odustani",
+        "import": "Uvezi",
+        "try_again": "Pokušaj ponovno",
+        "close": "Zatvori",
+        "done": "Gotovo"
+      },
+      "progress": {
+        "uploading": "Prijenos...",
+        "importing": "Uvoz..."
+      },
+      "summary": {
+        "title": {
+          "complete": "Uvoz je dovršen"
+        },
+        "message": {
+          "success": "U projekt je uspješno uvezeno članova: {count}{plural}.",
+          "no_imports": "Iz CSV datoteke nije uvezen nijedan novi član."
+        },
+        "stats": {
+          "added": "Dodano",
+          "reactivated": "Ponovno aktivirano",
+          "already_members": "Već članovi",
+          "skipped": "Preskočeno"
+        },
+        "download_errors": "Preuzmi pojedinosti o preskočenima"
+      },
+      "toast": {
+        "invalid_file": {
+          "title": "Nevaljana datoteka",
+          "message": "Podržane su samo CSV datoteke."
+        },
+        "import_failed": {
+          "title": "Uvoz nije uspio",
+          "message": "Došlo je do pogreške."
+        }
+      }
+    }
+  }
+}

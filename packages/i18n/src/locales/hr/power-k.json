@@ -1,0 +1,197 @@
+{
+  "power_k": {
+    "actions_commands": {
+      "bulk_delete_work_items": "Skupno izbriši radne stavke"
+    },
+    "contextual_actions": {
+      "work_item": {
+        "title": "Radnje radne stavke",
+        "indicator": "Radna stavka",
+        "change_state": "Promijeni stanje",
+        "change_priority": "Promijeni prioritet",
+        "change_assignees": "Dodijeli",
+        "assign_to_me": "Dodijeli meni",
+        "unassign_from_me": "Ukloni moju dodjelu",
+        "change_estimate": "Promijeni procjenu",
+        "add_to_cycle": "Dodaj u ciklus",
+        "add_to_modules": "Dodaj u module",
+        "add_labels": "Dodaj oznake",
+        "subscribe": "Pretplati se na obavijesti",
+        "unsubscribe": "Otkaži pretplatu na obavijesti",
+        "delete": "Izbriši",
+        "copy_id": "Kopiraj ID",
+        "copy_id_toast_success": "ID radne stavke kopiran je u međuspremnik.",
+        "copy_id_toast_error": "Došlo je do pogreške pri kopiranju ID-ja radne stavke u međuspremnik.",
+        "copy_title": "Kopiraj naslov",
+        "copy_title_toast_success": "Naslov radne stavke kopiran je u međuspremnik.",
+        "copy_title_toast_error": "Došlo je do pogreške pri kopiranju naslova radne stavke u međuspremnik.",
+        "copy_url": "Kopiraj URL",
+        "copy_url_toast_success": "URL radne stavke kopiran je u međuspremnik.",
+        "copy_url_toast_error": "Došlo je do pogreške pri kopiranju URL-a radne stavke u međuspremnik."
+      },
+      "cycle": {
+        "title": "Radnje ciklusa",
+        "indicator": "Ciklus",
+        "add_to_favorites": "Dodaj u favorite",
+        "remove_from_favorites": "Ukloni iz favorita",
+        "copy_url": "Kopiraj URL",
+        "copy_url_toast_success": "URL ciklusa kopiran je u međuspremnik.",
+        "copy_url_toast_error": "Došlo je do pogreške pri kopiranju URL-a ciklusa u međuspremnik."
+      },
+      "module": {
+        "title": "Radnje modula",
+        "indicator": "Modul",
+        "add_remove_members": "Dodaj ili ukloni članove",
+        "change_status": "Promijeni status",
+        "add_to_favorites": "Dodaj u favorite",
+        "remove_from_favorites": "Ukloni iz favorita",
+        "copy_url": "Kopiraj URL",
+        "copy_url_toast_success": "URL modula kopiran je u međuspremnik.",
+        "copy_url_toast_error": "Došlo je do pogreške pri kopiranju URL-a modula u međuspremnik."
+      },
+      "page": {
+        "title": "Radnje stranice",
+        "indicator": "Stranica",
+        "lock": "Zaključaj",
+        "unlock": "Otključaj",
+        "make_private": "Postavi kao privatno",
+        "make_public": "Postavi kao javno",
+        "archive": "Arhiviraj",
+        "restore": "Vrati",
+        "add_to_favorites": "Dodaj u favorite",
+        "remove_from_favorites": "Ukloni iz favorita",
+        "copy_url": "Kopiraj URL",
+        "copy_url_toast_success": "URL stranice kopiran je u međuspremnik.",
+        "copy_url_toast_error": "Došlo je do pogreške pri kopiranju URL-a stranice u međuspremnik."
+      }
+    },
+    "creation_actions": {
+      "create_work_item": "Nova radna stavka",
+      "create_page": "Nova stranica",
+      "create_view": "Novi prikaz",
+      "create_cycle": "Novi ciklus",
+      "create_module": "Novi modul",
+      "create_project": "Novi projekt",
+      "create_workspace": "Novi radni prostor",
+      "create_project_automation": "Nova automatizacija"
+    },
+    "navigation_actions": {
+      "open_workspace": "Otvori radni prostor",
+      "nav_home": "Otvori početnu stranicu",
+      "nav_inbox": "Otvori pristiglu poštu",
+      "nav_your_work": "Otvori svoj rad",
+      "nav_account_settings": "Otvori postavke računa",
+      "open_project": "Otvori projekt",
+      "nav_projects_list": "Otvori popis projekata",
+      "nav_all_workspace_work_items": "Otvori sve radne stavke",
+      "nav_assigned_workspace_work_items": "Otvori dodijeljene radne stavke",
+      "nav_created_workspace_work_items": "Otvori stvorene radne stavke",
+      "nav_subscribed_workspace_work_items": "Otvori praćene radne stavke",
+      "nav_workspace_analytics": "Otvori analitiku radnog prostora",
+      "nav_workspace_drafts": "Otvori skice radnog prostora",
+      "nav_workspace_archives": "Otvori arhivu radnog prostora",
+      "open_workspace_setting": "Otvori postavku radnog prostora",
+      "nav_workspace_settings": "Otvori postavke radnog prostora",
+      "nav_project_work_items": "Otvori radne stavke",
+      "open_project_cycle": "Otvori ciklus",
+      "nav_project_cycles": "Otvori cikluse",
+      "open_project_module": "Otvori modul",
+      "nav_project_modules": "Otvori module",
+      "open_project_view": "Otvori prikaz projekta",
+      "nav_project_views": "Otvori prikaze projekta",
+      "nav_project_pages": "Otvori stranice",
+      "nav_project_intake": "Otvori Intake",
+      "nav_project_archives": "Otvori arhivu projekta",
+      "open_project_setting": "Otvori postavku projekta",
+      "nav_project_settings": "Otvori postavke projekta",
+      "nav_workspace_active_cycle": "Otvori sve aktivne cikluse",
+      "nav_project_overview": "Otvori pregled projekta"
+    },
+    "account_actions": {
+      "sign_out": "Odjavi se",
+      "workspace_invites": "Pozivnice za radni prostor"
+    },
+    "miscellaneous_actions": {
+      "toggle_app_sidebar": "Prikaži ili sakrij bočnu traku aplikacije",
+      "copy_current_page_url": "Kopiraj URL trenutačne stranice",
+      "copy_current_page_url_toast_success": "URL trenutačne stranice kopiran je u međuspremnik.",
+      "copy_current_page_url_toast_error": "Došlo je do pogreške pri kopiranju URL-a trenutačne stranice u međuspremnik.",
+      "focus_top_nav_search": "Fokusiraj polje za pretraživanje"
+    },
+    "preferences_actions": {
+      "update_theme": "Promijeni temu sučelja",
+      "update_timezone": "Promijeni vremensku zonu",
+      "update_start_of_week": "Promijeni prvi dan u tjednu",
+      "update_language": "Promijeni jezik sučelja",
+      "toast": {
+        "theme": {
+          "success": "Tema je uspješno ažurirana.",
+          "error": "Ažuriranje teme nije uspjelo. Pokušaj ponovno."
+        },
+        "timezone": {
+          "success": "Vremenska zona uspješno je ažurirana.",
+          "error": "Ažuriranje vremenske zone nije uspjelo. Pokušaj ponovno."
+        },
+        "generic": {
+          "success": "Postavke su uspješno ažurirane.",
+          "error": "Ažuriranje postavki nije uspjelo. Pokušaj ponovno."
+        }
+      }
+    },
+    "help_actions": {
+      "open_keyboard_shortcuts": "Otvori tipkovničke prečace",
+      "open_plane_documentation": "Otvori dokumentaciju za Plane",
+      "join_forum": "Pridruži se našem forumu",
+      "report_bug": "Prijavi pogrešku",
+      "chat_with_us": "Razgovaraj s nama"
+    },
+    "page_placeholders": {
+      "default": "Unesi naredbu ili pretraži",
+      "open_workspace": "Otvori radni prostor",
+      "open_project": "Otvori projekt",
+      "open_workspace_setting": "Otvori postavku radnog prostora",
+      "open_project_cycle": "Otvori ciklus",
+      "open_project_module": "Otvori modul",
+      "open_project_view": "Otvori prikaz projekta",
+      "open_project_setting": "Otvori postavku projekta",
+      "update_work_item_state": "Promijeni stanje",
+      "update_work_item_priority": "Promijeni prioritet",
+      "update_work_item_assignee": "Dodijeli",
+      "update_work_item_estimate": "Promijeni procjenu",
+      "update_work_item_cycle": "Dodaj u ciklus",
+      "update_work_item_module": "Dodaj u module",
+      "update_work_item_labels": "Dodaj oznake",
+      "update_module_member": "Promijeni članove",
+      "update_module_status": "Promijeni status",
+      "update_theme": "Promijeni temu",
+      "update_timezone": "Promijeni vremensku zonu",
+      "update_start_of_week": "Promijeni prvi dan u tjednu",
+      "update_language": "Promijeni jezik"
+    },
+    "search_menu": {
+      "no_results": "Nema rezultata",
+      "clear_search": "Očisti pretraživanje",
+      "go_to_advanced_search": "Otvori napredno pretraživanje"
+    },
+    "footer": {
+      "workspace_level": "Razina radnog prostora"
+    },
+    "shortcuts_modal": {
+      "search_placeholder": "Pretraži prečace",
+      "no_results": "Nema prečaca za upit \"{query}\"",
+      "sequence_separator": "zatim"
+    },
+    "group_titles": {
+      "actions": "Radnje",
+      "contextual": "Kontekstualno",
+      "navigation": "Navigacija",
+      "create": "Stvori",
+      "general": "Općenito",
+      "settings": "Postavke",
+      "account": "Račun",
+      "miscellaneous": "Razno",
+      "preferences": "Osobne postavke",
+      "help": "Pomoć"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "attachmentComponent": {
+    "uploader": {
+      "drag_and_drop": "Ispusti datoteke ovdje ili klikni za prijenos"
+    },
+    "errors": {
+      "file_too_large": {
+        "title": "Datoteka je prevelika.",
+        "description": "Maksimalna veličina datoteke je {maxFileSize} MB"
+      },
+      "unsupported_file_type": {
+        "title": "Nepodržana vrsta datoteke.",
+        "description": "Pogledaj podržane formate"
+      },
+      "default": {
+        "title": "Prijenos nije uspio.",
+        "description": "Došlo je do pogreške. Pokušaj ponovno."
+      }
+    },
+    "upgrade": {
+      "description": "Nadogradi svoj plan kako bi mogao/la pregledati ovaj privitak."
+    },
+    "aria": {
+      "click_to_upload": "Klikni za prijenos privitka"
+    }
+  },
+  "externalEmbedComponent": {
+    "block_menu": {
+      "convert_to_embed": "Pretvori u ugrađeni sadržaj",
+      "convert_to_link": "Pretvori u poveznicu",
+      "convert_to_richcard": "Pretvori u obogaćenu karticu"
+    },
+    "placeholder": {
+      "insert_embed": "Ovdje umetni poveznicu na sadržaj, primjerice YouTube videozapis ili Figma dizajn.",
+      "link": "Unesi ili zalijepi poveznicu"
+    },
+    "input_modal": {
+      "embed": "Ugrađeni sadržaj",
+      "works_with_links": "Radi s uslugama YouTube, Figma, Google Docs i drugima"
+    },
+    "error": {
+      "not_valid_link": "Unesi valjani URL."
+    }
+  },
+  "ai_block": {
+    "content": {
+      "placeholder": "Opiši sadržaj ovog bloka",
+      "generated_here": "Sadržaj koji generira AI prikazat će se ovdje"
+    },
+    "block_types": {
+      "placeholder": "Odaberi vrstu bloka",
+      "summarize_page": "Sažmi stranicu",
+      "custom_prompt": "Prilagođeni upit"
+    },
+    "actions": {
+      "discard": "Odbaci",
+      "generate": "Generiraj",
+      "generating": "Generiranje",
+      "rewriting": "Ponovno pisanje",
+      "rewrite": "Preoblikuj",
+      "use_this": "Upotrijebi ovo",
+      "refine": "Doradi"
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "templates": {
+    "settings": {
+      "title": "Predlošci",
+      "description": "Upotrebom predložaka uštedi 80 % vremena potrebnog za stvaranje projekata, radnih stavki i stranica.",
+      "new_project_template": "Novi predložak projekta",
+      "new_work_item_template": "Novi predložak radne stavke",
+      "new_page_template": "Novi predložak stranice",
+      "options": {
+        "project": {
+          "label": "Predlošci projekata"
+        },
+        "work_item": {
+          "label": "Predlošci radnih stavki"
+        },
+        "page": {
+          "label": "Predlošci stranica"
+        }
+      },
+      "create_template": {
+        "label": "Stvori predložak",
+        "no_permission": {
+          "project": "Obrati se administratoru projekta za stvaranje predložaka",
+          "workspace": "Obrati se administratoru radnog prostora za stvaranje predložaka"
+        }
+      },
+      "use_template": {
+        "button": {
+          "default": "Upotrijebi predložak",
+          "loading": "Primjena"
+        }
+      },
+      "template_source": {
+        "workspace": {
+          "info": "Preuzeto iz radnog prostora"
+        },
+        "project": {
+          "info": "Preuzeto iz projekta"
+        }
+      },
+      "form": {
+        "project": {
+          "template": {
+            "name": {
+              "placeholder": "Dodijeli naziv predlošku projekta.",
+              "validation": {
+                "required": "Naziv predloška je obavezan",
+                "maxLength": "Naziv predloška mora imati manje od 255 znakova"
+              }
+            },
+            "description": {
+              "placeholder": "Opiši kada i kako upotrijebiti ovaj predložak."
+            }
+          },
+          "name": {
+            "placeholder": "Dodijeli naziv projektu.",
+            "validation": {
+              "required": "Naslov projekta je obavezan",
+              "maxLength": "Naslov projekta mora imati manje od 255 znakova"
+            }
+          },
+          "description": {
+            "placeholder": "Opiši svrhu i ciljeve ovog projekta."
+          },
+          "button": {
+            "create": "Stvori predložak projekta",
+            "update": "Ažuriraj predložak projekta"
+          }
+        },
+        "work_item": {
+          "template": {
+            "name": {
+              "placeholder": "Dodijeli naziv predlošku radne stavke.",
+              "validation": {
+                "required": "Naziv predloška je obavezan",
+                "maxLength": "Naziv predloška mora imati manje od 255 znakova"
+              }
+            },
+            "description": {
+              "placeholder": "Opiši kada i kako upotrijebiti ovaj predložak."
+            }
+          },
+          "name": {
+            "placeholder": "Dodijeli naslov ovoj radnoj stavci.",
+            "validation": {
+              "required": "Naslov radne stavke je obavezan",
+              "maxLength": "Naslov radne stavke mora imati manje od 255 znakova"
+            }
+          },
+          "description": {
+            "placeholder": "Opiši ovu radnu stavku kako bi bilo jasno što ćeš postići njezinim dovršetkom."
+          },
+          "button": {
+            "create": "Stvori predložak radne stavke",
+            "update": "Ažuriraj predložak radne stavke"
+          }
+        },
+        "page": {
+          "template": {
+            "name": {
+              "placeholder": "Dodijeli naziv predlošku stranice.",
+              "validation": {
+                "required": "Naziv predloška je obavezan",
+                "maxLength": "Naziv predloška mora imati manje od 255 znakova"
+              }
+            },
+            "description": {
+              "placeholder": "Opiši kada i kako upotrijebiti ovaj predložak."
+            }
+          },
+          "name": {
+            "placeholder": "Stranica bez naslova",
+            "validation": {
+              "maxLength": "Naziv stranice mora imati manje od 255 znakova"
+            }
+          },
+          "button": {
+            "create": "Stvori predložak stranice",
+            "update": "Ažuriraj predložak stranice"
+          }
+        },
+        "publish": {
+          "action": "{isPublished, select, true {Postavke objave} other {Objavi na Marketplaceu}}",
+          "unpublish_action": "Povuci s Marketplacea",
+          "title": "Učini svoj predložak prepoznatljivim i lakim za pronalaženje.",
+          "name": {
+            "label": "Naziv predloška",
+            "placeholder": "Dodijeli naziv predlošku",
+            "validation": {
+              "required": "Naziv predloška je obavezan",
+              "maxLength": "Naziv predloška mora imati manje od 255 znakova"
+            }
+          },
+          "short_description": {
+            "label": "Kratki opis",
+            "placeholder": "Ovaj je predložak odličan za voditelje projekata koji istodobno upravljaju s više projekata.",
+            "validation": {
+              "required": "Kratki opis je obavezan"
+            }
+          },
+          "description": {
+            "label": "Opis",
+            "placeholder": "Povećaj produktivnost i pojednostavi komunikaciju integracijom pretvorbe govora u tekst.\n• Transkripcija u stvarnom vremenu: Trenutačno pretvori govor u točan tekst.\n• Stvaranje zadataka i komentara: Dodaj zadatke, opise i komentare glasovnim naredbama.",
+            "validation": {
+              "required": "Opis je obavezan"
+            }
+          },
+          "category": {
+            "label": "Kategorija",
+            "placeholder": "Odaberi kategorije koje najbolje odgovaraju predlošku. Možeš odabrati više njih.",
+            "validation": {
+              "required": "Obavezna je barem jedna kategorija"
+            }
+          },
+          "keywords": {
+            "label": "Ključne riječi",
+            "placeholder": "Upotrijebi pojmove koje bi korisnici mogli pretraživati dok traže ovaj predložak.",
+            "helperText": "Unesi ključne riječi odvojene zarezima koje će pomoći korisnicima da pronađu predložak.",
+            "validation": {
+              "required": "Obavezna je barem jedna ključna riječ"
+            }
+          },
+          "website": {
+            "label": "URL web-mjesta",
+            "placeholder": "https://plane.so",
+            "validation": {
+              "invalid": "Nevaljan URL",
+              "maxLength": "URL mora imati manje od 800 znakova"
+            }
+          },
+          "company_name": {
+            "label": "Naziv tvrtke",
+            "placeholder": "Plane",
+            "validation": {
+              "required": "Naziv tvrtke je obavezan",
+              "maxLength": "Naziv tvrtke mora imati manje od 255 znakova"
+            }
+          },
+          "contact_email": {
+            "label": "Kontaktna adresa e-pošte",
+            "placeholder": "help@plane.so",
+            "validation": {
+              "invalid": "Nevaljana adresa e-pošte",
+              "maxLength": "Kontaktna adresa e-pošte mora imati manje od 255 znakova"
+            }
+          },
+          "privacy_policy_url": {
+            "label": "Poveznica na pravila privatnosti",
+            "placeholder": "https://planes.so/privacy-policy",
+            "validation": {
+              "invalid": "Nevaljan URL",
+              "maxLength": "URL mora imati manje od 800 znakova"
+            }
+          },
+          "terms_of_service_url": {
+            "label": "Poveznica na uvjete korištenja",
+            "placeholder": "https://planes.so/terms-of-use",
+            "validation": {
+              "invalid": "Nevaljan URL",
+              "maxLength": "URL mora imati manje od 800 znakova"
+            }
+          },
+          "cover_image": {
+            "label": "Dodaj naslovnu sliku koja će se prikazivati na Marketplaceu",
+            "upload_title": "Prenesi naslovnu sliku",
+            "upload_placeholder": "Klikni ili povuci i ispusti naslovnu sliku za prijenos",
+            "drop_here": "Ispusti ovdje",
+            "click_to_upload": "Klikni za prijenos",
+            "invalid_file_or_exceeds_size_limit": "Datoteka nije valjana ili premašuje ograničenje veličine. Pokušaj ponovno.",
+            "upload_and_save": "Prenesi i spremi",
+            "uploading": "Prijenos",
+            "remove": "Ukloni",
+            "removing": "Uklanjanje",
+            "validation": {
+              "required": "Naslovna slika je obavezna"
+            }
+          },
+          "attach_screenshots": {
+            "label": "Dodaj slike za koje misliš da će se svidjeti korisnicima ovog predloška.",
+            "validation": {
+              "required": "Obavezna je barem jedna snimka zaslona"
+            }
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "Predlošci",
+        "description": "Uz predloške projekata, radnih stavki i stranica u Planeu ne moraš stvarati projekte ispočetka ni ručno postavljati svojstva radnih stavki.",
+        "sub_description": "Upotrebom predložaka uštedi 80 % vremena za administraciju."
+      },
+      "no_templates": {
+        "button": "Stvori prvi predložak"
+      },
+      "no_labels": {
+        "description": "Još nema oznaka. Stvori ih za organizaciju i filtriranje radnih stavki u projektu."
+      },
+      "no_modules": {
+        "description": "Još nema modula. Organiziraj rad u potprojekte s dodijeljenim voditeljima i izvođačima."
+      },
+      "no_work_items": {
+        "description": "Još nema radnih stavki. Dodaj stavku za bolju organizaciju rada."
+      },
+      "no_sub_work_items": {
+        "description": "Još nema podstavki. Dodaj je za bolju organizaciju rada."
+      },
+      "page": {
+        "no_templates": {
+          "title": "Nema predložaka kojima imaš pristup.",
+          "description": "Stvori predložak"
+        },
+        "no_results": {
+          "title": "Nije pronađen odgovarajući predložak.",
+          "description": "Pokušaj pretražiti druge pojmove."
+        }
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Predložak je stvoren",
+          "message": "Predložak {templateType} „{templateName}” sada je dostupan u radnom prostoru."
+        },
+        "error": {
+          "title": "Ovaj put nije bilo moguće stvoriti predložak.",
+          "message": "Pokušaj ponovno spremiti pojedinosti ili ih kopiraj u novi predložak, po mogućnosti na drugoj kartici."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Predložak je izmijenjen",
+          "message": "Predložak {templateType} „{templateName}” izmijenjen je."
+        },
+        "error": {
+          "title": "Nije bilo moguće spremiti promjene ovog predloška.",
+          "message": "Pokušaj ponovno spremiti pojedinosti ili se vrati predlošku kasnije. Ako se problem nastavi, obrati nam se."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Predložak je izbrisan",
+          "message": "Predložak {templateType} „{templateName}” izbrisan je iz radnog prostora."
+        },
+        "error": {
+          "title": "Ovaj put nije bilo moguće izbrisati predložak.",
+          "message": "Pokušaj ga ponovno izbrisati ili se vrati kasnije. Ako ga i dalje ne možeš izbrisati, obrati nam se."
+        }
+      },
+      "unpublish": {
+        "success": {
+          "title": "Objava predloška je povučena",
+          "message": "Objava predloška {templateType} „{templateName}” povučena je."
+        },
+        "error": {
+          "title": "Ovaj put nije bilo moguće povući objavu predloška.",
+          "message": "Pokušaj ponovno povući objavu ili se vrati kasnije. Ako i dalje ne možeš povući objavu, obrati nam se."
+        }
+      }
+    },
+    "delete_confirmation": {
+      "title": "Izbriši predložak",
+      "description": {
+        "prefix": "Želiš li zaista izbrisati predložak-",
+        "suffix": "? Svi podaci povezani s predloškom bit će trajno uklonjeni. Ovu radnju nije moguće poništiti."
+      }
+    },
+    "unpublish_confirmation": {
+      "title": "Povuci objavu predloška",
+      "description": {
+        "prefix": "Želiš li zaista povući objavu predloška-",
+        "suffix": "? Ovaj predložak više neće biti dostupan korisnicima na Marketplaceu."
+      }
+    },
+    "dropdown": {
+      "add": {
+        "work_item": "Dodaj novi predložak",
+        "project": "Dodaj novi predložak"
+      },
+      "label": {
+        "project": "Odaberi predložak projekta",
+        "page": "Odaberi predložak"
+      },
+      "tooltip": {
+        "work_item": "Odaberi predložak radne stavke"
+      },
+      "no_results": {
+        "work_item": "Nema pronađenih predložaka.",
+        "project": "Nema pronađenih predložaka."
+      }
+    }
+  }
+}

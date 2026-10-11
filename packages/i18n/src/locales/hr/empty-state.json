@@ -1,0 +1,270 @@
+{
+  "common_empty_state": {
+    "progress": {
+      "title": "Još nema pokazatelja napretka.",
+      "description": "Počni postavljati vrijednosti svojstava radnih stavki kako bi se ovdje prikazali pokazatelji napretka."
+    },
+    "updates": {
+      "title": "Još nema ažuriranja.",
+      "description": "Ažuriranja će se prikazati ovdje kad ih dodaju članovi projekta."
+    },
+    "search": {
+      "title": "Nema odgovarajućih rezultata.",
+      "description": "Nema rezultata. Pokušaj prilagoditi pojmove za pretraživanje."
+    },
+    "not_found": {
+      "title": "Ups! Nešto nije u redu",
+      "description": "Trenutačno ne možemo dohvatiti tvoj Plane račun. Moguće je da je riječ o mrežnoj pogrešci.",
+      "cta_primary": "Pokušaj ponovno učitati"
+    },
+    "server_error": {
+      "title": "Pogreška poslužitelja",
+      "description": "Ne možemo se povezati s poslužiteljem i dohvatiti podatke. Radimo na rješavanju problema.",
+      "cta_primary": "Pokušaj ponovno učitati"
+    }
+  },
+  "project_empty_state": {
+    "no_access": {
+      "title": "Čini se da nemaš pristup ovom projektu",
+      "restricted_description": "Zatraži pristup od administratora kako bi mogao/la nastaviti.",
+      "join_description": "Klikni gumb u nastavku za pridruživanje.",
+      "cta_primary": "Pridruži se projektu",
+      "cta_loading": "Pridruživanje projektu"
+    },
+    "invalid_project": {
+      "title": "Projekt nije pronađen",
+      "description": "Projekt koji tražiš ne postoji."
+    },
+    "work_items": {
+      "title": "Započni s prvom radnom stavkom.",
+      "description": "Radne stavke temelj su projekta — dodijeli im odgovorne osobe, postavi prioritete i jednostavno prati napredak.",
+      "cta_primary": "Stvori prvu radnu stavku"
+    },
+    "cycles": {
+      "title": "Grupiraj rad u vremenski ograničene cikluse.",
+      "description": "Podijeli rad na vremenski ograničene cjeline, odredi datume polazeći od roka projekta i zajedno s timom ostvari vidljiv napredak.",
+      "cta_primary": "Postavi prvi ciklus"
+    },
+    "cycle_work_items": {
+      "title": "U ovom ciklusu nema radnih stavki",
+      "description": "Stvori radne stavke kako bi počeo/la pratiti napredak tima u ovom ciklusu i na vrijeme ostvario/la ciljeve.",
+      "cta_primary": "Stvori radnu stavku",
+      "cta_secondary": "Dodaj postojeću radnu stavku"
+    },
+    "modules": {
+      "title": "Poveži ciljeve projekta s modulima i jednostavno prati napredak.",
+      "description": "Moduli se sastoje od povezanih radnih stavki. Pomažu u praćenju napretka kroz faze projekta, od kojih svaka ima rokove i analitiku koja pokazuje koliko si blizu ostvarenju ciljeva.",
+      "cta_primary": "Postavi prvi modul"
+    },
+    "module_work_items": {
+      "title": "U ovom modulu nema radnih stavki",
+      "description": "Stvori radne stavke kako bi počeo/la pratiti ovaj modul.",
+      "cta_primary": "Stvori radnu stavku",
+      "cta_secondary": "Dodaj postojeću radnu stavku"
+    },
+    "views": {
+      "title": "Spremi prilagođene prikaze projekta",
+      "description": "Prikazi su spremljeni filtri koji ti omogućuju brz pristup najčešće korištenim informacijama. Jednostavno surađuj s članovima tima koji dijele prikaze i prilagođavaju ih svojim potrebama.",
+      "cta_primary": "Stvori prikaz"
+    },
+    "no_work_items_in_project": {
+      "title": "U projektu još nema radnih stavki",
+      "description": "Dodaj radne stavke u projekt i podijeli posao na dijelove koje možeš pratiti pomoću prikaza.",
+      "cta_primary": "Dodaj radnu stavku"
+    },
+    "work_item_filter": {
+      "title": "Nema pronađenih radnih stavki",
+      "description": "Trenutačni filtar nije vratio rezultate. Pokušaj promijeniti filtre.",
+      "cta_primary": "Dodaj radnu stavku"
+    },
+    "pages": {
+      "title": "Dokumentiraj sve — od bilješki do PRD-ova",
+      "description": "Stranice omogućuju bilježenje i organiziranje informacija na jednom mjestu. Piši bilješke sa sastanaka i projektnu dokumentaciju, uključujući PRD-ove, ugrađuj radne stavke i strukturiraj sadržaj gotovim komponentama.",
+      "cta_primary": "Stvori prvu stranicu"
+    },
+    "archive_pages": {
+      "title": "Još nema arhiviranih stranica",
+      "description": "Arhiviraj stranice koje trenutačno nisu važne. Po potrebi im pristupi ovdje."
+    },
+    "intake_sidebar": {
+      "title": "Bilježi zahtjeve u Intakeu",
+      "description": "Pošalji nove zahtjeve na pregled i određivanje prioriteta te ih prati u tijeku rada projekta.",
+      "cta_primary": "Stvori zahtjev u Intakeu"
+    },
+    "intake_main": {
+      "title": "Odaberi radnu stavku iz Intakea za prikaz pojedinosti"
+    },
+    "epics": {
+      "title": "Pretvori složene projekte u strukturirane epove.",
+      "description": "Ep ti pomaže razložiti velike ciljeve na manje zadatke koje možeš pratiti.",
+      "cta_primary": "Stvori ep",
+      "cta_secondary": "Dokumentacija"
+    },
+    "epic_work_items": {
+      "title": "Još nisi dodao/la radne stavke u ovaj ep.",
+      "description": "Za početak dodaj nekoliko radnih stavki u ovaj ep i prati ih ovdje.",
+      "cta_secondary": "Dodaj radne stavke"
+    }
+  },
+  "workspace_empty_state": {
+    "archive_epics": {
+      "title": "Još nema arhiviranih epova",
+      "description": "Možeš arhivirati dovršene ili otkazane epove. Nakon arhiviranja pronaći ćeš ih ovdje."
+    },
+    "archive_work_items": {
+      "title": "Još nema arhiviranih radnih stavki",
+      "description": "Dovršene ili otkazane radne stavke možeš arhivirati ručno ili automatizacijom. Nakon arhiviranja pronaći ćeš ih ovdje.",
+      "cta_primary": "Postavi automatizaciju"
+    },
+    "archive_cycles": {
+      "title": "Još nema arhiviranih ciklusa",
+      "description": "Arhiviraj dovršene cikluse kako bi uredio/la projekt. Nakon arhiviranja pronaći ćeš ih ovdje."
+    },
+    "archive_modules": {
+      "title": "Još nema arhiviranih modula",
+      "description": "Arhiviraj dovršene ili otkazane module kako bi uredio/la projekt. Nakon arhiviranja pronaći ćeš ih ovdje."
+    },
+    "home_widget_quick_links": {
+      "title": "Važne reference, resurse i dokumente imaj pri ruci"
+    },
+    "inbox_sidebar_all": {
+      "title": "Ovdje će se prikazivati ažuriranja radnih stavki na koje si pretplaćen/a"
+    },
+    "inbox_sidebar_mentions": {
+      "title": "Ovdje će se prikazivati spominjanja u tvojim radnim stavkama"
+    },
+    "your_work_by_priority": {
+      "title": "Još nema dodijeljenih radnih stavki"
+    },
+    "your_work_by_state": {
+      "title": "Još nema dodijeljenih radnih stavki"
+    },
+    "views": {
+      "title": "Još nema prikaza",
+      "description": "Dodaj radne stavke u projekt i pomoću prikaza jednostavno filtriraj, razvrstavaj i prati napredak.",
+      "cta_primary": "Dodaj radnu stavku"
+    },
+    "drafts": {
+      "title": "Nedovršene radne stavke",
+      "description": "Isprobaj ovu značajku tako da počneš stvarati radnu stavku i ostaviš je nedovršenom ili u nastavku stvoriš prvu skicu.",
+      "cta_primary": "Stvori skicu radne stavke"
+    },
+    "projects_archived": {
+      "title": "Nema arhiviranih projekata",
+      "description": "Čini se da su svi tvoji projekti još aktivni — odlično!"
+    },
+    "analytics_projects": {
+      "title": "Stvori projekte kako bi ovdje prikazao/la njihove pokazatelje."
+    },
+    "analytics_work_items": {
+      "title": "Stvori projekte s radnim stavkama i dodijeljenim osobama kako bi ovdje počeo/la pratiti uspješnost, napredak i učinak tima."
+    },
+    "analytics_no_cycle": {
+      "title": "Stvori cikluse za organiziranje rada u vremenski ograničene faze i praćenje napretka kroz sprintove."
+    },
+    "analytics_no_module": {
+      "title": "Stvori module za organiziranje rada i praćenje napretka kroz različite faze."
+    },
+    "analytics_no_intake": {
+      "title": "Postavi Intake za upravljanje pristiglim zahtjevima i praćenje njihova prihvaćanja ili odbijanja."
+    },
+    "home_widget_stickies": {
+      "title": "Zapiši ideju ili trenutak nadahnuća. Dodaj Sticky za početak."
+    },
+    "stickies": {
+      "title": "Odmah zabilježi ideje",
+      "description": "Stvori Stickies za brze bilješke i popise zadataka te ih uvijek imaj pri ruci.",
+      "cta_primary": "Stvori prvi Sticky",
+      "cta_secondary": "Dokumentacija"
+    },
+    "active_cycles": {
+      "title": "Nema aktivnih ciklusa",
+      "description": "Trenutačno nemaš cikluse u tijeku. Ciklusi koji uključuju današnji datum prikazat će se ovdje."
+    },
+    "dashboard": {
+      "title": "Vizualiziraj napredak pomoću nadzornih ploča",
+      "description": "Izradi prilagodljive nadzorne ploče za praćenje pokazatelja, mjerenje rezultata i jasan prikaz uvida.",
+      "cta_primary": "Stvori novu nadzornu ploču"
+    },
+    "wiki": {
+      "title": "Napiši bilješku, dokument ili cijelu bazu znanja.",
+      "description": "Stranice su prostor za bilježenje misli u Planeu. Zapisuj bilješke sa sastanaka, jednostavno ih oblikuj, ugrađuj radne stavke i organiziraj sadržaj pomoću zbirke komponenti unutar konteksta projekta.",
+      "cta_primary": "Stvori stranicu"
+    },
+    "project_overview_state_sidebar": {
+      "title": "Omogući stanja projekta",
+      "description": "Omogući stanja projekta za pregled i upravljanje svojstvima kao što su stanje, prioritet, rokovi i drugo."
+    }
+  },
+  "settings_empty_state": {
+    "estimates": {
+      "title": "Još nema procjena",
+      "description": "Odredi kako tim mjeri trud i dosljedno ga prati u svim radnim stavkama.",
+      "cta_primary": "Dodaj sustav procjene"
+    },
+    "labels": {
+      "title": "Još nema oznaka",
+      "description": "Stvori prilagođene oznake za učinkovito kategoriziranje i upravljanje radnim stavkama.",
+      "cta_primary": "Stvori prvu oznaku"
+    },
+    "exports": {
+      "title": "Još nema izvoza",
+      "description": "Trenutačno nema zapisa o izvozu. Nakon izvoza podataka svi će se zapisi prikazati ovdje."
+    },
+    "tokens": {
+      "title": "Još nema osobnih tokena",
+      "description": "Generiraj sigurne API tokene za povezivanje radnog prostora s vanjskim sustavima i aplikacijama.",
+      "cta_primary": "Dodaj pristupni token"
+    },
+    "workspace_tokens": {
+      "title": "Još nema pristupnih tokena",
+      "description": "Generiraj sigurne API tokene za povezivanje radnog prostora s vanjskim sustavima i aplikacijama.",
+      "cta_primary": "Dodaj pristupni token"
+    },
+    "webhooks": {
+      "title": "Još nema dodanih Webhookova",
+      "description": "Automatiziraj obavijesti vanjskim uslugama kad se dogode događaji u projektu.",
+      "cta_primary": "Dodaj Webhook"
+    },
+    "work_item_types": {
+      "title": "Stvori i prilagodi vrste radnih stavki",
+      "description": "Definiraj vrste radnih stavki za svoj projekt. Svaka vrsta može imati vlastita svojstva, tijekove rada i polja prilagođena potrebama projekta i tima.",
+      "cta_primary": "Omogući"
+    },
+    "work_item_type_properties": {
+      "title": "Definiraj svojstva i pojedinosti koje želiš zabilježiti za ovu vrstu radne stavke. Prilagodi ih tijeku rada projekta.",
+      "cta_secondary": "Dodaj svojstvo"
+    },
+    "templates": {
+      "title": "Još nema predložaka",
+      "description": "Skrati vrijeme postavljanja izradom predložaka za radne stavke i stranice te započni novi posao u nekoliko sekundi.",
+      "cta_primary": "Stvori prvi predložak"
+    },
+    "recurring_work_items": {
+      "title": "Još nema ponavljajućih radnih stavki",
+      "description": "Postavi ponavljajuće radne stavke kako bi automatizirao/la zadatke koji se ponavljaju i jednostavno se držao/la rasporeda.",
+      "cta_primary": "Stvori ponavljajuću radnu stavku"
+    },
+    "worklogs": {
+      "title": "Prati vremenske evidencije svih članova",
+      "description": "Bilježi vrijeme utrošeno na radne stavke i pregledaj detaljne vremenske evidencije članova tima u svim projektima."
+    },
+    "group_syncing": {
+      "title": "Još nema mapiranja grupa"
+    },
+    "template_setting": {
+      "title": "Još nema predložaka",
+      "description": "Skrati vrijeme postavljanja izradom predložaka za projekte, radne stavke i stranice te započni novi posao u nekoliko sekundi.",
+      "cta_primary": "Stvori predložak"
+    },
+    "workflows": {
+      "title": "Još nema tijekova rada",
+      "description": "Stvori tijekove rada za upravljanje napretkom radnih stavki.",
+      "cta_primary": "Dodaj novi tijek rada",
+      "states": {
+        "title": "Dodaj stanja",
+        "description": "Odaberi stanja kroz koja prolazi radna stavka."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "stickies": {
+    "title": "Tvoji Stickies",
+    "placeholder": "klikni ovdje za unos",
+    "all": "Svi Stickies",
+    "no-data": "Zapiši ideju ili trenutak nadahnuća. Dodaj Sticky za početak.",
+    "add": "Dodaj Sticky",
+    "search_placeholder": "Pretraži prema naslovu",
+    "delete": "Izbriši Sticky",
+    "delete_confirmation": "Želiš li zaista izbrisati ovaj Sticky?",
+    "empty_state": {
+      "simple": "Zapiši ideju ili trenutak nadahnuća. Dodaj Sticky za početak.",
+      "general": {
+        "title": "Stickies su brze bilješke i popisi zadataka koje možeš zapisati u hodu.",
+        "description": "Jednostavno zabilježi svoje misli i ideje stvaranjem Stickyja kojima možeš pristupiti bilo kada i odakle god.",
+        "primary_button": {
+          "text": "Dodaj Sticky"
+        }
+      },
+      "search": {
+        "title": "Nijedan tvoj Sticky ne odgovara pretraživanju.",
+        "description": "Pokušaj s drugim pojmom ili nam javi\nako si siguran/sigurna da je upit ispravan. ",
+        "primary_button": {
+          "text": "Dodaj Sticky"
+        }
+      }
+    },
+    "toasts": {
+      "errors": {
+        "wrong_name": "Naziv za Sticky ne može biti dulji od 100 znakova.",
+        "already_exists": "Već postoji Sticky bez opisa"
+      },
+      "created": {
+        "title": "Sticky je stvoren",
+        "message": "Sticky je uspješno stvoren"
+      },
+      "not_created": {
+        "title": "Sticky nije stvoren",
+        "message": "Sticky nije bilo moguće stvoriti"
+      },
+      "updated": {
+        "title": "Sticky je ažuriran",
+        "message": "Sticky je uspješno ažuriran"
+      },
+      "not_updated": {
+        "title": "Sticky nije ažuriran",
+        "message": "Sticky nije bilo moguće ažurirati"
+      },
+      "removed": {
+        "title": "Sticky je uklonjen",
+        "message": "Sticky je uspješno uklonjen"
+      },
+      "not_removed": {
+        "title": "Sticky nije uklonjen",
+        "message": "Sticky nije bilo moguće ukloniti"
+      }
+    }
+  }
+}

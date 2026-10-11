@@ -1,0 +1,58 @@
+{
+  "notification": {
+    "label": "Pristigla pošta",
+    "page_label": "{workspace} - Pristigla pošta",
+    "options": {
+      "mark_all_as_read": "Označi sve kao pročitano",
+      "mark_read": "Označi kao pročitano",
+      "mark_unread": "Označi kao nepročitano",
+      "refresh": "Osvježi",
+      "filters": "Filtri pristigle pošte",
+      "show_unread": "Prikaži nepročitano",
+      "show_snoozed": "Prikaži odgođeno",
+      "show_archived": "Prikaži arhivirano",
+      "mark_archive": "Arhiviraj",
+      "mark_unarchive": "Ukloni iz arhive",
+      "mark_snooze": "Odgađanje",
+      "mark_unsnooze": "Vrati iz odgođenog"
+    },
+    "toasts": {
+      "read": "Obavijest je označena kao pročitana",
+      "unread": "Obavijest je označena kao nepročitana",
+      "archived": "Obavijest je arhivirana",
+      "unarchived": "Obavijest je uklonjena iz arhive",
+      "snoozed": "Obavijest je odgođena",
+      "unsnoozed": "Obavijest je vraćena iz odgođenih"
+    },
+    "empty_state": {
+      "detail": {
+        "title": "Odaberi za prikaz pojedinosti."
+      },
+      "all": {
+        "title": "Nema dodijeljenih radnih stavki",
+        "description": "Ovdje možeš vidjeti ažuriranja radnih stavki\n koje su ti dodijeljene."
+      },
+      "mentions": {
+        "title": "Nema dodijeljenih radnih stavki",
+        "description": "Ovdje možeš vidjeti ažuriranja radnih stavki\n koje su ti dodijeljene."
+      }
+    },
+    "tabs": {
+      "all": "Sve",
+      "mentions": "Spominjanja"
+    },
+    "filter": {
+      "assigned": "Dodijeljeno meni",
+      "created": "Stvoreno sa mnom",
+      "subscribed": "Pretplaćeno"
+    },
+    "snooze": {
+      "1_day": "1 dan",
+      "3_days": "3 dana",
+      "5_days": "5 dana",
+      "1_week": "1 tjedan",
+      "2_weeks": "2 tjedna",
+      "custom": "Prilagođeno"
+    }
+  }
+}

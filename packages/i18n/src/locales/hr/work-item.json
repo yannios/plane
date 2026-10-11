@@ -1,0 +1,432 @@
+{
+  "issue": {
+    "label": "{count, plural, one {Radna stavka} few {Radne stavke} other {Radnih stavki}}",
+    "all": "Sve radne stavke",
+    "edit": "Uredi radnu stavku",
+    "title": {
+      "label": "Naslov radne stavke",
+      "required": "Naslov radne stavke je obavezan."
+    },
+    "add": {
+      "press_enter": "Pritisni 'Enter' za dodavanje još jedne radne stavke",
+      "label": "Dodaj radnu stavku",
+      "cycle": {
+        "failed": "Radnu stavku nije bilo moguće dodati u ciklus. Pokušaj ponovno.",
+        "success": "{count, plural, one {Radna stavka} few {Radne stavke} other {Radnih stavki}} uspješno dodano u ciklus.",
+        "loading": "Dodavanje {count, plural, one {radne stavke} few {radnih stavki} other {radnih stavki}} u ciklus"
+      },
+      "assignee": "Dodaj izvođače",
+      "start_date": "Dodaj datum početka",
+      "due_date": "Dodaj krajnji rok",
+      "parent": "Dodaj nadređenu radnu stavku",
+      "sub_issue": "Dodaj podređenu radnu stavku",
+      "dependency": "Dodaj ovisnost",
+      "relation": "Dodaj odnos",
+      "link": "Dodaj poveznicu",
+      "existing": "Dodaj postojeću radnu stavku"
+    },
+    "remove": {
+      "label": "Ukloni radnu stavku",
+      "cycle": {
+        "loading": "Uklanjanje radne stavke iz ciklusa",
+        "success": "Radna stavka uspješno je uklonjena iz ciklusa.",
+        "failed": "Radnu stavku nije bilo moguće ukloniti iz ciklusa. Pokušaj ponovno."
+      },
+      "module": {
+        "loading": "Uklanjanje radne stavke iz modula",
+        "success": "Radna stavka uspješno je uklonjena iz modula.",
+        "failed": "Radnu stavku nije bilo moguće ukloniti iz modula. Pokušaj ponovno."
+      },
+      "parent": {
+        "label": "Ukloni nadređenu radnu stavku"
+      }
+    },
+    "new": "Nova radna stavka",
+    "adding": "Dodavanje radne stavke",
+    "create": {
+      "success": "Radna stavka uspješno je stvorena"
+    },
+    "priority": {
+      "urgent": "Hitno",
+      "high": "Visok",
+      "medium": "Srednji",
+      "low": "Nizak"
+    },
+    "display": {
+      "properties": {
+        "label": "Prikaz svojstava",
+        "id": "ID",
+        "issue_type": "Vrsta radne stavke",
+        "sub_issue_count": "Broj podređenih radnih stavki",
+        "attachment_count": "Broj privitaka",
+        "created_on": "Datum stvaranja",
+        "sub_issue": "Podređena radna stavka",
+        "work_item_count": "Broj radnih stavki"
+      },
+      "extra": {
+        "show_sub_issues": "Prikaži podređene radne stavke",
+        "show_empty_groups": "Prikaži prazne grupe"
+      }
+    },
+    "layouts": {
+      "ordered_by_label": "Ovaj je prikaz razvrstan prema",
+      "list": "Popis",
+      "kanban": "Ploča",
+      "calendar": "Kalendar",
+      "spreadsheet": "Tablica",
+      "gantt": "Vremenska crta",
+      "title": {
+        "list": "Prikaz popisa",
+        "kanban": "Prikaz ploče",
+        "calendar": "Prikaz kalendara",
+        "spreadsheet": "Prikaz tablice",
+        "gantt": "Prikaz vremenske crte"
+      }
+    },
+    "states": {
+      "active": "Aktivno",
+      "backlog": "Zaostatak"
+    },
+    "comments": {
+      "placeholder": "Dodaj komentar",
+      "switch": {
+        "private": "Prebaci na privatni komentar",
+        "public": "Prebaci na javni komentar"
+      },
+      "create": {
+        "success": "Komentar je uspješno stvoren",
+        "error": "Stvaranje komentara nije uspjelo. Pokušaj ponovno poslije."
+      },
+      "update": {
+        "success": "Komentar je uspješno ažuriran",
+        "error": "Ažuriranje komentara nije uspjelo. Pokušaj ponovno poslije."
+      },
+      "remove": {
+        "success": "Komentar je uspješno uklonjen",
+        "error": "Uklanjanje komentara nije uspjelo. Pokušaj ponovno poslije."
+      },
+      "upload": {
+        "error": "Prijenos datoteke nije uspio. Pokušaj ponovno poslije."
+      },
+      "copy_link": {
+        "success": "Poveznica na komentar kopirana je u međuspremnik",
+        "error": "Kopiranje poveznice na komentar nije uspjelo. Pokušaj ponovno poslije."
+      },
+      "replies": {
+        "create": {
+          "submit_button": "Dodaj odgovor",
+          "placeholder": "Dodaj odgovor"
+        },
+        "toast": {
+          "fetch": {
+            "error": {
+              "message": "Dohvaćanje odgovora nije uspjelo"
+            }
+          },
+          "create": {
+            "success": {
+              "message": "Odgovor je uspješno stvoren"
+            },
+            "error": {
+              "message": "Stvaranje odgovora nije uspjelo"
+            }
+          },
+          "update": {
+            "success": {
+              "message": "Odgovor je uspješno ažuriran"
+            },
+            "error": {
+              "message": "Ažuriranje odgovora nije uspjelo"
+            }
+          },
+          "delete": {
+            "success": {
+              "message": "Odgovor je uspješno izbrisan"
+            },
+            "error": {
+              "message": "Brisanje odgovora nije uspjelo"
+            }
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "issue_detail": {
+        "title": "Radna stavka ne postoji",
+        "description": "Radna stavka koju tražiš ne postoji, arhivirana je ili izbrisana.",
+        "primary_button": {
+          "text": "Prikaži druge radne stavke"
+        }
+      }
+    },
+    "sibling": {
+      "label": "Srodne radne stavke"
+    },
+    "archive": {
+      "description": "Arhivirati je moguće samo dovršene ili otkazane radne stavke.",
+      "label": "Arhiviraj radnu stavku",
+      "confirm_message": "Želiš li zaista arhivirati radnu stavku? Sve arhivirane radne stavke možeš kasnije vratiti.",
+      "success": {
+        "label": "Arhiviranje je uspjelo",
+        "message": "Arhivirane stavke možeš pronaći u arhivi projekta."
+      },
+      "failed": {
+        "message": "Radnu stavku nije bilo moguće arhivirati. Pokušaj ponovno."
+      },
+      "banner_message": "Ova je radna stavka arhivirana. Otvori odjeljak Arhiva da bi je vratio/la.",
+      "go_to_archives": "Otvori arhivu"
+    },
+    "restore": {
+      "success": {
+        "title": "Vraćanje je uspjelo",
+        "message": "Radnu stavku možeš pronaći među radnim stavkama projekta."
+      },
+      "failed": {
+        "message": "Radnu stavku nije bilo moguće vratiti. Pokušaj ponovno."
+      }
+    },
+    "relation": {
+      "relates_to": "Povezano s",
+      "duplicate": "Duplikat od",
+      "blocked_by": "Blokirano stavkom",
+      "blocking": "Blokira",
+      "start_before": "Počinje prije",
+      "start_after": "Počinje nakon",
+      "finish_before": "Završava prije",
+      "finish_after": "Završava nakon",
+      "implements": "Implementira",
+      "implemented_by": "Implementirano stavkom"
+    },
+    "copy_link": "Kopiraj poveznicu radne stavke",
+    "delete": {
+      "label": "Izbriši radnu stavku",
+      "error": "Pogreška pri brisanju radne stavke"
+    },
+    "subscription": {
+      "actions": {
+        "subscribed": "Pretplata na radnu stavku je uspješna",
+        "unsubscribed": "Pretplata na radnu stavku je otkazana"
+      }
+    },
+    "select": {
+      "error": "Odaberi barem jednu radnu stavku",
+      "empty": "Nije odabrana nijedna radna stavka",
+      "add_selected": "Dodaj odabrane radne stavke",
+      "select_all": "Odaberi sve",
+      "deselect_all": "Poništi odabir"
+    },
+    "open_in_full_screen": "Otvori radnu stavku preko cijelog zaslona",
+    "duplicate": {
+      "modal": {
+        "title": "Kopiraj u drugi projekt",
+        "description1": "Time će se stvoriti kopija radne stavke.",
+        "description2": "Svi podaci o svojstvima uklonit će se tijekom kopiranja.",
+        "placeholder": "Odaberi projekt"
+      }
+    },
+    "toast": {
+      "duplicate": {
+        "success": {
+          "message": "Radna stavka uspješno je duplicirana"
+        },
+        "error": {
+          "message": "Dupliciranje radne stavke nije uspjelo"
+        }
+      }
+    },
+    "pages": {
+      "link_pages": "Poveži stranice",
+      "show_wiki_pages": "Prikaži Wiki stranice",
+      "link_pages_to": "Poveži stranice sa",
+      "linked_pages": "Povezane stranice",
+      "no_description": "Ova je stranica prazna. Napiši nešto i prikazat će se ovdje umjesto ovog teksta.",
+      "toasts": {
+        "link": {
+          "success": {
+            "title": "Stranice su ažurirane",
+            "message": "Stranice su uspješno ažurirane"
+          },
+          "error": {
+            "title": "Ažuriranje stranica nije uspjelo",
+            "message": "Ažuriranje stranica nije uspjelo"
+          }
+        },
+        "remove": {
+          "success": {
+            "title": "Stranica je uklonjena",
+            "message": "Stranica je uspješno uklonjena"
+          },
+          "error": {
+            "title": "Uklanjanje stranice nije uspjelo",
+            "message": "Uklanjanje stranice nije uspjelo"
+          }
+        }
+      }
+    },
+    "vote": {
+      "click_to_upvote": "Klikni za glas za",
+      "click_to_downvote": "Klikni za glas protiv",
+      "click_to_view_upvotes": "Klikni za prikaz glasova za",
+      "click_to_view_downvotes": "Klikni za prikaz glasova protiv"
+    }
+  },
+  "sub_work_item": {
+    "update": {
+      "success": "Podređena radna stavka uspješno je ažurirana",
+      "error": "Pogreška pri ažuriranju podređene radne stavke"
+    },
+    "remove": {
+      "success": "Podređena radna stavka uspješno je uklonjena",
+      "error": "Pogreška pri uklanjanju podređene radne stavke"
+    },
+    "empty_state": {
+      "sub_list_filters": {
+        "title": "Nijedna podređena radna stavka ne odgovara primijenjenim filtrima.",
+        "description": "Za prikaz svih podređenih radnih stavki ukloni sve primijenjene filtre.",
+        "action": "Ukloni filtre"
+      },
+      "list_filters": {
+        "title": "Nijedna radna stavka ne odgovara primijenjenim filtrima.",
+        "description": "Za prikaz svih radnih stavki ukloni sve primijenjene filtre.",
+        "action": "Ukloni filtre"
+      }
+    }
+  },
+  "issue_relation": {
+    "empty_state": {
+      "search": {
+        "title": "Nema odgovarajućih radnih stavki"
+      },
+      "no_issues": {
+        "title": "Nema pronađenih radnih stavki"
+      }
+    }
+  },
+  "issue_comment": {
+    "empty_state": {
+      "general": {
+        "title": "Još nema komentara",
+        "description": "Komentari služe za raspravu i praćenje radnih stavki."
+      }
+    }
+  },
+  "bulk_operations": {
+    "error_details": {
+      "invalid_archive_state_group": {
+        "title": "Nije moguće arhivirati radne stavke",
+        "message": "Arhivirati je moguće samo radne stavke u grupama stanja Dovršeno ili Otkazano."
+      },
+      "invalid_issue_start_date": {
+        "title": "Nije moguće ažurirati radne stavke",
+        "message": "Odabrani datum početka za neke je radne stavke nakon krajnjeg roka. Provjeri je li datum početka prije krajnjeg roka."
+      },
+      "invalid_issue_target_date": {
+        "title": "Nije moguće ažurirati radne stavke",
+        "message": "Odabrani krajnji rok za neke je radne stavke prije datuma početka. Provjeri je li krajnji rok nakon datuma početka."
+      },
+      "invalid_state_transition": {
+        "title": "Nije moguće ažurirati radne stavke",
+        "message": "Promjena stanja nije dopuštena za neke radne stavke. Provjeri je li promjena stanja dopuštena."
+      }
+    },
+    "upgrade_banner": {
+      "message": "Istodobno promijeni stanje, prioritet i druga svojstva više radnih stavki. U prosjeku uštedi tri minute po radnji.",
+      "cta": "Nadogradi na One"
+    }
+  },
+  "recurring_work_items": {
+    "settings": {
+      "heading": "Ponavljajuće radne stavke",
+      "description": "Jednom postavi posao koji se ponavlja, a mi ćemo se pobrinuti za ponavljanja. Sve će se prikazati ovdje kad dođe vrijeme.",
+      "new_recurring_work_item": "Nova ponavljajuća radna stavka",
+      "update_recurring_work_item": "Ažuriraj ponavljajuću radnu stavku",
+      "form": {
+        "interval": {
+          "title": "Raspored",
+          "start_date": {
+            "validation": {
+              "required": "Datum početka je obavezan"
+            }
+          },
+          "interval_type": {
+            "validation": {
+              "required": "Vrsta intervala je obavezna"
+            }
+          }
+        },
+        "button": {
+          "create": "Stvori ponavljajuću radnu stavku",
+          "update": "Ažuriraj ponavljajuću radnu stavku"
+        }
+      },
+      "create_button": {
+        "label": "Stvori ponavljajuću radnu stavku",
+        "no_permission": "Obrati se administratoru projekta za stvaranje ponavljajućih radnih stavki"
+      }
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "Prepusti ponavljajući posao automatizaciji",
+        "description": "Postavi ga jednom, a mi ćemo ga ponovno pokrenuti kad dođe vrijeme. Nadogradi na Business i pojednostavni ponavljajući rad."
+      },
+      "no_templates": {
+        "button": "Stvori prvu ponavljajuću radnu stavku"
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Ponavljajuća radna stavka je stvorena",
+          "message": "Ponavljajuća radna stavka {name} sada je dostupna u tvom radnom prostoru."
+        },
+        "error": {
+          "title": "Ovu ponavljajuću radnu stavku trenutačno nije moguće stvoriti.",
+          "message": "Pokušaj ponovno spremiti pojedinosti ili ih kopirati u novu ponavljajuću radnu stavku, po mogućnosti na drugoj kartici."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Ponavljajuća radna stavka je izmijenjena",
+          "message": "Ponavljajuća radna stavka {name} izmijenjena je."
+        },
+        "error": {
+          "title": "Promjene ove ponavljajuće radne stavke nije bilo moguće spremiti.",
+          "message": "Pokušaj ponovno spremiti pojedinosti ili se vrati ovoj ponavljajućoj radnoj stavci poslije. Ako problem ne nestane, obrati nam se."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Ponavljajuća radna stavka je izbrisana",
+          "message": "Ponavljajuća radna stavka {name} izbrisana je iz tvog radnog prostora."
+        },
+        "error": {
+          "title": "Ovu ponavljajuću radnu stavku trenutačno nije moguće izbrisati.",
+          "message": "Pokušaj je ponovno izbrisati ili to učini poslije. Ako brisanje i dalje ne uspije, obrati nam se."
+        }
+      }
+    },
+    "delete_confirmation": {
+      "title": "Izbriši ponavljajuću radnu stavku",
+      "description": {
+        "prefix": "Želiš li zaista izbrisati ponavljajuću radnu stavku ",
+        "suffix": "? Svi podaci povezani s ponavljajućom radnom stavkom bit će trajno uklonjeni. Ovu radnju nije moguće poništiti."
+      }
+    }
+  },
+  "epic": {
+    "new": "Novi ep",
+    "label": "{count, plural, one {Ep} few {Epa} other {Epa}}",
+    "adding": "Dodavanje epa",
+    "create": {
+      "success": "Ep je uspješno stvoren"
+    },
+    "add": {
+      "label": "Dodaj ep",
+      "press_enter": "Pritisni 'Enter' za dodavanje još jednog epa"
+    },
+    "title": {
+      "label": "Naslov epa",
+      "required": "Naslov epa je obavezan."
+    }
+  }
+}

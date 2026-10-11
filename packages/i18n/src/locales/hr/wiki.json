@@ -1,0 +1,113 @@
+{
+  "wiki_collections": {
+    "predefined": {
+      "general": "Općenito",
+      "private": "Privatno",
+      "shared": "Dijeljeno",
+      "archived": "Arhivirano"
+    },
+    "fallback_name": "Zbirka",
+    "form": {
+      "name_required": "Naziv zbirke je obavezan",
+      "name_max_length": "Naziv zbirke mora imati manje od 255 znakova",
+      "name_placeholder_create": "Unesi naziv zbirke",
+      "name_placeholder_edit": "Naziv zbirke"
+    },
+    "create_modal": {
+      "title": "Stvori zbirku",
+      "submit": "Stvori zbirku"
+    },
+    "edit_modal": {
+      "title": "Uredi zbirku"
+    },
+    "delete_modal": {
+      "title": "Izbriši zbirku",
+      "page_count": "Ova zbirka sadrži {pageCount} {pageCount, plural, one {stranicu} few {stranice} other {stranica}}. Odaberi što će se dogoditi s njima.",
+      "transfer_title": "Prenesi stranice i izbriši zbirku",
+      "transfer_description": "Premjesti sve stranice u drugu zbirku prije brisanja. Stranice i njihove dozvole bit će sačuvane.",
+      "transfer_warning": "Premještene stranice naslijedit će dozvole odabrane zbirke.",
+      "transfer_target_label": "Premjesti stranice u",
+      "transfer_target_placeholder": "Odaberi zbirku",
+      "delete_with_pages_title": "Izbriši zbirku i stranice",
+      "delete_with_pages_description": "Trajno izbriši zbirku i sve njezine stranice. Ovu radnju nije moguće poništiti.",
+      "submit": "Izbriši zbirku"
+    },
+    "header": {
+      "add_page": "Dodaj stranicu"
+    },
+    "menu": {
+      "create_new_page": "Stvori novu stranicu",
+      "add_existing_page": "Dodaj postojeću stranicu",
+      "edit_collection": "Uredi zbirku",
+      "collection_options": "Opcije zbirke"
+    },
+    "add_existing_page_modal": {
+      "search_placeholder": "Pretraži stranice",
+      "success_message": "{count} {count, plural, one {stranica} few {stranice} other {stranica}} dodana u zbirku.",
+      "error_message": "Stranice nije bilo moguće premjestiti. Pokušaj ponovno.",
+      "no_pages_found": "Nema stranica koje odgovaraju pretraživanju",
+      "no_pages_available": "Nema stranica za premještanje",
+      "submit": "Premjesti"
+    },
+    "list": {
+      "invite_only": "Samo uz pozivnicu",
+      "remove_error": "Uklanjanje stranice iz zbirke nije uspjelo.",
+      "no_matching_pages": "Nema odgovarajućih stranica",
+      "remove_search_criteria": "Ukloni kriterije pretraživanja za prikaz svih stranica",
+      "remove_filters": "Ukloni filtre za prikaz svih stranica",
+      "no_pages_title": "Još nema stranica",
+      "no_pages_description": "Ova zbirka trenutačno nema stranica.",
+      "untitled": "Bez naslova",
+      "restricted_access": "Ograničen pristup",
+      "collapse_page": "Skupi stranicu",
+      "expand_page": "Proširi stranicu",
+      "page_actions": "Radnje stranice",
+      "page_link_copied": "Poveznica na stranicu kopirana je u međuspremnik.",
+      "columns": {
+        "page_name": "Naziv stranice",
+        "owner": "Vlasnik",
+        "nested_pages": "Ugniježđene stranice",
+        "last_activity": "Posljednja aktivnost",
+        "actions": "Radnje"
+      }
+    },
+    "toasts": {
+      "created": "Zbirka je uspješno stvorena.",
+      "create_error": "Zbirku nije bilo moguće stvoriti. Pokušaj ponovno.",
+      "renamed": "Naziv zbirke uspješno je promijenjen.",
+      "rename_error": "Zbirku nije bilo moguće ažurirati. Pokušaj ponovno.",
+      "transferred_deleted": "Stranice su prenesene, a zbirka izbrisana.",
+      "deleted_with_pages": "Zbirka i njezine stranice su izbrisane.",
+      "delete_error": "Zbirku nije bilo moguće izbrisati. Pokušaj ponovno.",
+      "target_required": "Odaberi zbirku u koju želiš premjestiti stranice.",
+      "create_page_error": "Stranicu nije bilo moguće stvoriti. Pokušaj ponovno.",
+      "create_page_in_collection_error": "Stranicu nije bilo moguće stvoriti ili dodati u zbirku. Pokušaj ponovno.",
+      "collection_link_copied": "Poveznica na zbirku kopirana je u međuspremnik."
+    }
+  },
+  "wiki": {
+    "upgrade_flow": {
+      "title": "Nadogradi plan za otključavanje Wiki značajki",
+      "description": "Uz Plane Pro otključaj javne stranice, povijest verzija, dijeljene stranice, suradnju u stvarnom vremenu i stranice radnog prostora za Wiki, dokumentaciju tvrtke i baze znanja.",
+      "upgrade_button": {
+        "text": "Nadogradi"
+      },
+      "learn_more_button": {
+        "text": "Saznaj više"
+      },
+      "download_button": {
+        "text": "Preuzmi podatke",
+        "loading": "Preuzimanje"
+      },
+      "tabs": {
+        "nested_pages": "Ugniježđene stranice",
+        "add_embeds": "Dodaj ugrađeni sadržaj",
+        "publish_pages": "Objavi stranice",
+        "comments": "Komentari"
+      }
+    },
+    "nested_pages_download_banner": {
+      "title": "Za ugniježđene stranice potreban je plaćeni plan. Nadogradi plan kako bi ih otključao/la."
+    }
+  }
+}

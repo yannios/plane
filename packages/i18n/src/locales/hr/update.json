@@ -1,0 +1,69 @@
+{
+  "updates": {
+    "progress": {
+      "title": "Napredak",
+      "since_last_update": "Od posljednjeg ažuriranja",
+      "comments": "{count, plural, one{# komentar} few{# komentara} other{# komentara}}"
+    },
+    "add_update": "Dodaj ažuriranje",
+    "add_update_placeholder": "Ovdje dodaj svoje ažuriranje",
+    "empty": {
+      "title": "Još nema ažuriranja",
+      "description": "Ažuriranja će se prikazati ovdje."
+    },
+    "reaction": {
+      "create": {
+        "success": {
+          "title": "Reakcija je dodana",
+          "message": "Reakcija je uspješno dodana"
+        },
+        "error": {
+          "title": "Reakcija nije dodana",
+          "message": "Reakciju nije bilo moguće dodati"
+        }
+      },
+      "remove": {
+        "success": {
+          "title": "Reakcija je uklonjena",
+          "message": "Reakcija je uspješno uklonjena"
+        },
+        "error": {
+          "title": "Reakcija nije uklonjena",
+          "message": "Reakciju nije bilo moguće ukloniti"
+        }
+      }
+    },
+    "create": {
+      "success": {
+        "title": "Ažuriranje je dodano",
+        "message": "Ažuriranje je uspješno dodano"
+      },
+      "error": {
+        "title": "Ažuriranje nije dodano",
+        "message": "Ažuriranje nije bilo moguće dodati"
+      }
+    },
+    "delete": {
+      "title": "Izbriši ažuriranje",
+      "confirmation": "Želiš li zaista izbrisati ovo ažuriranje? Ovu radnju nije moguće poništiti.",
+      "success": {
+        "title": "Ažuriranje je izbrisano",
+        "message": "Ažuriranje je uspješno izbrisano"
+      },
+      "error": {
+        "title": "Ažuriranje nije izbrisano",
+        "message": "Ažuriranje nije bilo moguće izbrisati"
+      }
+    },
+    "update": {
+      "success": {
+        "title": "Ažurirano",
+        "message": "Ažuriranje je uspješno izmijenjeno"
+      },
+      "error": {
+        "title": "Ažuriranje nije izmijenjeno",
+        "message": "Ažuriranje nije bilo moguće izmijeniti"
+      }
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "automations": {
+    "settings": {
+      "title": "Prilagođene automatizacije",
+      "create_automation": "Stvori automatizaciju"
+    },
+    "scope": {
+      "label": "Opseg",
+      "run_on": "Pokreni na"
+    },
+    "trigger": {
+      "label": "Okidač",
+      "add_trigger": "Dodaj okidač",
+      "sidebar_header": "Konfiguracija okidača",
+      "input_label": "Što pokreće ovu automatizaciju?",
+      "input_placeholder": "Odaberi opciju",
+      "section_plane_events": "Događaji u Planeu",
+      "section_time_based": "Vremenski uvjetovano",
+      "fixed_schedule": "Fiksni raspored",
+      "schedule": {
+        "frequency": "Učestalost",
+        "select_day": "Odaberi dan",
+        "day_of_month": "Dan u mjesecu",
+        "monthly_every": "Svakog",
+        "monthly_day_aria": "Dan {day}",
+        "time": "Vrijeme",
+        "hour": "Sat",
+        "minute": "Minuta",
+        "hour_suffix": "h",
+        "minute_suffix": "min",
+        "am": "AM",
+        "pm": "PM",
+        "timezone": "Vremenska zona",
+        "timezone_placeholder": "Odaberi vremensku zonu",
+        "frequency_daily": "Dnevno",
+        "frequency_weekly": "Tjedno",
+        "frequency_monthly": "Mjesečno",
+        "on": "U",
+        "validation_weekly_day_required": "Odaberi barem jedan dan u tjednu.",
+        "validation_monthly_date_required": "Odaberi dan u mjesecu.",
+        "main_content_schedule_summary_daily": "Svaki dan u {time} ({timezone}).",
+        "main_content_schedule_summary_weekly": "Svaki tjedan, {days} u {time} ({timezone}).",
+        "main_content_schedule_summary_monthly": "Svaki mjesec, {day}. dana u {time} ({timezone}).",
+        "schedule_mode": "Način rasporeda",
+        "schedule_mode_fixed": "Fiksni",
+        "schedule_mode_cron": "Cron",
+        "cron_expression_label": "Unesi Cron izraz",
+        "cron_expression_placeholder": "0 9 * * 1-5",
+        "cron_invalid": "Cron izraz nije valjan.",
+        "cron_preview": "Ovaj Cron izraz pokreće \"{description}\".",
+        "main_content_cron_summary": "{description} ({timezone})."
+      },
+      "button": {
+        "previous": "Natrag",
+        "next": "Dodaj radnju"
+      },
+      "warning": {
+        "disabled_trigger_switching": "Vrstu okidača nije moguće promijeniti nakon stvaranja."
+      }
+    },
+    "condition": {
+      "label": "Uvjet",
+      "add_condition": "Dodaj uvjet",
+      "adding_condition": "Dodavanje uvjeta"
+    },
+    "action": {
+      "label": "Radnja",
+      "add_action": "Dodaj radnju",
+      "sidebar_header": "Radnje",
+      "input_label": "Što automatizacija radi?",
+      "input_placeholder": "Odaberi opciju",
+      "handler_name": {
+        "add_comment": "Dodaj komentar",
+        "change_property": "Promijeni svojstvo",
+        "run_script": "Pokreni skriptu"
+      },
+      "configuration": {
+        "label": "Konfiguracija",
+        "change_property": {
+          "placeholders": {
+            "property_name": "Odaberi svojstvo",
+            "change_type": "Odaberi",
+            "property_value_select": "{count, plural, one{Odaberi vrijednost} few{Odaberi vrijednosti} other{Odaberi vrijednosti}}",
+            "property_value_select_date": "Odaberi datum"
+          },
+          "validation": {
+            "property_name_required": "Naziv svojstva je obavezan",
+            "change_type_required": "Vrsta promjene je obavezna",
+            "property_value_required": "Vrijednost svojstva je obavezna"
+          }
+        }
+      },
+      "comment_block": {
+        "title": "Dodaj komentar"
+      },
+      "run_script_block": {
+        "title": "Pokreni skriptu"
+      },
+      "change_property_block": {
+        "title": "Promijeni svojstvo"
+      },
+      "validation": {
+        "delete_only_action": "Onemogući automatizaciju prije brisanja njezine jedine radnje."
+      }
+    },
+    "conjunctions": {
+      "and": "I",
+      "or": "Ili",
+      "if": "Ako",
+      "then": "Tada"
+    },
+    "enable": {
+      "alert": "Kad dovršiš automatizaciju, klikni \"Omogući\". Nakon toga bit će spremna za pokretanje.",
+      "validation": {
+        "required": "Automatizacija mora imati okidač i barem jednu radnju da bi se mogla omogućiti."
+      }
+    },
+    "delete": {
+      "validation": {
+        "enabled": "Automatizaciju je potrebno onemogućiti prije brisanja."
+      }
+    },
+    "table": {
+      "title": "Naziv automatizacije",
+      "scope": "Opseg",
+      "projects": "Projekti",
+      "last_run_on": "Posljednje pokretanje",
+      "created_on": "Datum stvaranja",
+      "last_updated_on": "Zadnje ažuriranje",
+      "last_run_status": "Status posljednjeg pokretanja",
+      "average_duration": "Prosječno trajanje",
+      "owner": "Vlasnik",
+      "executions": "Pokretanja"
+    },
+    "create_modal": {
+      "heading": {
+        "create": "Stvori automatizaciju",
+        "update": "Ažuriraj automatizaciju"
+      },
+      "title": {
+        "placeholder": "Imenuj automatizaciju.",
+        "required_error": "Naziv je obavezan"
+      },
+      "description": {
+        "placeholder": "Opiši automatizaciju."
+      },
+      "submit_button": {
+        "create": "Stvori automatizaciju",
+        "update": "Ažuriraj automatizaciju"
+      }
+    },
+    "delete_modal": {
+      "heading": "Izbriši automatizaciju"
+    },
+    "activity": {
+      "filters": {
+        "show_fails": "Prikaži neuspjela pokretanja",
+        "all": "Sve",
+        "only_activity": "Samo aktivnost",
+        "only_run_history": "Samo povijest pokretanja"
+      },
+      "run_history": {
+        "initiator": "Pokrenuo/la"
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Uspjeh",
+          "message": "Automatizacija je uspješno stvorena."
+        },
+        "error": {
+          "title": "Pogreška",
+          "message": "Stvaranje automatizacije nije uspjelo."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Uspjeh",
+          "message": "Automatizacija je uspješno ažurirana."
+        },
+        "error": {
+          "title": "Pogreška",
+          "message": "Ažuriranje automatizacije nije uspjelo."
+        }
+      },
+      "enable": {
+        "success": {
+          "title": "Uspjeh",
+          "message": "Automatizacija je uspješno omogućena."
+        },
+        "error": {
+          "title": "Pogreška",
+          "message": "Omogućavanje automatizacije nije uspjelo."
+        }
+      },
+      "disable": {
+        "success": {
+          "title": "Uspjeh",
+          "message": "Automatizacija je uspješno onemogućena."
+        },
+        "error": {
+          "title": "Pogreška",
+          "message": "Onemogućavanje automatizacije nije uspjelo."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Automatizacija je izbrisana",
+          "message": "Automatizacija {name} izbrisana je iz projekta."
+        },
+        "error": {
+          "title": "Ovu automatizaciju trenutačno nije moguće izbrisati.",
+          "message": "Pokušaj ponovno ili to učini poslije. Ako je ni tada ne bude moguće izbrisati, obrati nam se."
+        }
+      },
+      "action": {
+        "create": {
+          "error": {
+            "title": "Pogreška",
+            "message": "Stvaranje radnje nije uspjelo. Pokušaj ponovno."
+          }
+        },
+        "update": {
+          "error": {
+            "title": "Pogreška",
+            "message": "Ažuriranje radnje nije uspjelo. Pokušaj ponovno."
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "no_automations": {
+        "title": "Još nema automatizacija za prikaz.",
+        "description": "Automatizacije uklanjaju ponavljajuće zadatke postavljanjem okidača, uvjeta i radnji. Stvori automatizaciju kako bi uštedio/la vrijeme i olakšao/la tijek rada."
+      },
+      "upgrade": {
+        "title": "Automatizacije",
+        "description": "Automatizacijama možeš automatizirati zadatke u projektu.",
+        "sub_description": "Uz automatizacije možeš uštedjeti do 80 % vremena koje trošiš na administraciju."
+      }
+    },
+    "global_automations": {
+      "project_select": {
+        "label": "Odaberi projekte u kojima će se ova automatizacija pokretati",
+        "all_projects": {
+          "label": "Svi projekti",
+          "description": "Automatizacija će se pokretati u svim projektima radnog prostora."
+        },
+        "select_projects": {
+          "label": "Odaberi projekte",
+          "description": "Automatizacija će se pokretati u odabranim projektima radnog prostora.",
+          "placeholder": "Odaberi projekte"
+        }
+      },
+      "settings": {
+        "sidebar_label": "Automatizacije",
+        "title": "Automatizacije",
+        "description": "Standardiziraj procese u cijelom radnom prostoru pomoću globalnih automatizacija."
+      },
+      "table": {
+        "scope": {
+          "global": "Globalno",
+          "project": {
+            "label": "Projekt",
+            "multiple": "Više",
+            "all": "Svi"
+          }
+        }
+      }
+    }
+  }
+}

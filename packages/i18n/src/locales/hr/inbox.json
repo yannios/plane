@@ -1,0 +1,87 @@
+{
+  "inbox_issue": {
+    "status": {
+      "pending": {
+        "title": "Na čekanju",
+        "description": "Na čekanju"
+      },
+      "declined": {
+        "title": "Odbijeno",
+        "description": "Odbijeno"
+      },
+      "snoozed": {
+        "title": "Odgođeno",
+        "description": "Preostaje {days, plural, one{# dan} few{# dana} other{# dana}}"
+      },
+      "accepted": {
+        "title": "Prihvaćeno",
+        "description": "Prihvaćeno"
+      },
+      "duplicate": {
+        "title": "Duplikat",
+        "description": "Duplikat"
+      }
+    },
+    "modals": {
+      "decline": {
+        "title": "Odbij radnu stavku",
+        "content": "Želiš li zaista odbiti radnu stavku {value}?"
+      },
+      "delete": {
+        "title": "Izbriši radnu stavku",
+        "content": "Želiš li zaista izbrisati radnu stavku {value}?",
+        "success": "Radna stavka uspješno je izbrisana"
+      }
+    },
+    "errors": {
+      "snooze_permission": "Samo administratori projekta mogu odgoditi ili vratiti radne stavke.",
+      "accept_permission": "Samo administratori projekta mogu prihvatiti radne stavke.",
+      "decline_permission": "Samo administratori projekta mogu odbiti radne stavke."
+    },
+    "actions": {
+      "accept": "Prihvati",
+      "decline": "Odbij",
+      "snooze": "Odgodi",
+      "unsnooze": "Vrati",
+      "copy": "Kopiraj poveznicu radne stavke",
+      "delete": "Izbriši",
+      "open": "Otvori radnu stavku",
+      "mark_as_duplicate": "Označi kao duplikat",
+      "move": "Premjesti {value} u radne stavke projekta"
+    },
+    "source": {
+      "in-app": "u aplikaciji"
+    },
+    "order_by": {
+      "created_at": "Datum stvaranja",
+      "updated_at": "Datum ažuriranja",
+      "id": "ID"
+    },
+    "label": "Intake",
+    "page_label": "{workspace} - Intake",
+    "modal": {
+      "title": "Stvori radnu stavku u Intakeu"
+    },
+    "tabs": {
+      "open": "Otvoreno",
+      "closed": "Zatvoreno"
+    },
+    "empty_state": {
+      "sidebar_open_tab": {
+        "title": "Nema otvorenih radnih stavki",
+        "description": "Ovdje pronađi otvorene radne stavke ili stvori novu."
+      },
+      "sidebar_closed_tab": {
+        "title": "Nema zatvorenih radnih stavki",
+        "description": "Ovdje se nalaze sve prihvaćene ili odbijene radne stavke."
+      },
+      "sidebar_filter": {
+        "title": "Nema odgovarajućih radnih stavki",
+        "description": "Nijedna radna stavka ne odgovara filtru u odjeljku Intake. Stvori novu radnu stavku."
+      },
+      "detail": {
+        "title": "Odaberi radnu stavku za prikaz pojedinosti."
+      }
+    }
+  }
+}

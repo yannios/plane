@@ -1,0 +1,41 @@
+{
+  "active_cycle": {
+    "empty_state": {
+      "progress": {
+        "title": "Dodaj radne stavke u ciklus kako bi se prikazao njegov napredak"
+      },
+      "chart": {
+        "title": "Dodaj radne stavke u ciklus kako bi se prikazao burndown grafikon."
+      },
+      "priority_issue": {
+        "title": "Na prvi pogled prati radne stavke visokog prioriteta u ciklusu."
+      },
+      "assignee": {
+        "title": "Dodaj izvođače radnim stavkama kako bi se prikazala raspodjela posla prema izvođačima."
+      },
+      "label": {
+        "title": "Dodaj oznake radnim stavkama kako bi se prikazala raspodjela posla prema oznakama."
+      }
+    }
+  },
+  "cycle": {
+    "label": "{count, plural, one {Ciklus} few {Ciklusa} other {Ciklusa}}",
+    "no_cycle": "Nema ciklusa"
+  },
+  "active_cycle_analytics": {
+    "empty_state": {
+      "progress": {
+        "title": "Dodaj radne stavke u ciklus kako bi se prikazao njegov\n napredak"
+      },
+      "priority": {
+        "title": "Na prvi pogled prati radne stavke visokog prioriteta\n u ciklusu."
+      },
+      "assignee": {
+        "title": "Dodaj izvođače radnim stavkama kako bi se prikazala\n raspodjela posla prema izvođačima."
+      },
+      "label": {
+        "title": "Dodaj oznake radnim stavkama kako bi se prikazala\n raspodjela posla prema oznakama."
+      }
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "product_tour": {
+    "workitems": {
+      "step_zero": {
+        "title": "Dobro došao/la u svoj radni prostor",
+        "description": "Za lakši početak stvorili smo ogledni projekt. Dodajmo svoju prvu radnu stavku."
+      },
+      "step_one": {
+        "title": "Klikni „+ Dodaj radnu stavku”",
+        "description": "Za početak klikni gumb „+ Nova radna stavka”. Možeš stvoriti zadatke, pogreške ili prilagođenu vrstu koja odgovara tvojim potrebama."
+      },
+      "step_two": {
+        "title": "Filtriraj radne stavke",
+        "description": "Upotrijebi filtre za brzo sužavanje popisa. Možeš filtrirati prema statusu, prioritetu ili članovima tima. "
+      },
+      "step_three": {
+        "title": "Prikaži, grupiraj i razvrstaj radne stavke prema potrebi.",
+        "description": "Pregledaj potrebna svojstva te grupiraj ili razvrstaj radne stavke prema svojim potrebama."
+      },
+      "step_four": {
+        "title": "Prikaži podatke na željeni način",
+        "description": "Odaberi svojstva koja želiš vidjeti na popisu. Radne stavke možeš grupirati i razvrstati prema svojim željama."
+      }
+    },
+    "cycle": {
+      "step_zero": {
+        "title": "Ostvari napredak pomoću ciklusa",
+        "description": "Pritisni Q za stvaranje ciklusa. Imenuj ga i postavi datume — svaki projekt može imati samo jedan ciklus."
+      },
+      "step_one": {
+        "title": "Stvori novi ciklus",
+        "description": "Pritisni Q za stvaranje ciklusa. Imenuj ga i postavi datume — svaki projekt može imati samo jedan ciklus."
+      },
+      "step_two": {
+        "title": "Klikni „+ ”",
+        "description": "Za početak klikni gumb „+”. Dodaj nove ili postojeće radne stavke izravno sa stranice ciklusa."
+      },
+      "step_three": {
+        "title": "Sažetak ciklusa",
+        "description": "Prati napredak ciklusa, produktivnost tima i prioritete — te istraži uzroke kašnjenja."
+      },
+      "step_four": {
+        "title": "Prenesi radne stavke",
+        "description": "Nakon krajnjeg roka ciklus se automatski dovršava. Nedovršene radne stavke premjesti u drugi ciklus."
+      }
+    },
+    "module": {
+      "step_zero": {
+        "title": "Podijeli projekt na module",
+        "description": "Moduli su manji, fokusirani projekti koji pomažu grupirati i organizirati radne stavke u određenim vremenskim razdobljima."
+      },
+      "step_one": {
+        "title": "Stvori modul",
+        "description": "Moduli su manji, fokusirani projekti koji pomažu grupirati i organizirati radne stavke u određenim vremenskim razdobljima."
+      },
+      "step_two": {
+        "title": "Klikni „+ ”",
+        "description": "Za početak klikni gumb „+”. Dodaj nove ili postojeće radne stavke izravno sa stranice modula."
+      },
+      "step_three": {
+        "title": "Stanja modula",
+        "description": "Stanja modula pomažu u planiranju te jasnom praćenju napretka i faza."
+      },
+      "step_four": {
+        "title": "Napredak modula",
+        "description": "Napredak modula prati se putem dovršenih stavki, a analitika omogućuje praćenje uspješnosti."
+      }
+    },
+    "page": {
+      "step_zero": {
+        "title": "Dokumentiraj uz stranice koje pokreće AI",
+        "description": "Stranice u Planeu omogućuju bilježenje, organiziranje i zajednički rad na informacijama o projektu — bez vanjskih alata."
+      },
+      "step_one": {
+        "title": "Postavi stranicu kao javnu ili privatnu",
+        "description": "Stranice mogu biti javne i vidljive svima u radnom prostoru ili privatne i dostupne samo tebi."
+      },
+      "step_two": {
+        "title": "Upotrijebi naredbu /",
+        "description": "Na stranici upotrijebi / za dodavanje sadržaja iz 16 vrsta blokova, uključujući popise, slike, tablice i ugrađeni sadržaj."
+      },
+      "step_three": {
+        "title": "Radnje stranice",
+        "description": "Nakon stvaranja stranice klikni izbornik ••• u gornjem desnom kutu za pristup sljedećim radnjama."
+      },
+      "step_four": {
+        "title": "Sadržaj",
+        "description": "Klikni ikonu ploče za pregled svih naslova i sadržaja stranice."
+      },
+      "step_five": {
+        "title": "Povijest verzija",
+        "description": "Stranice bilježe sve izmjene u povijesti verzija, pa po potrebi možeš vratiti prethodnu verziju."
+      }
+    },
+    "intake": {
+      "step_zero": {
+        "title": "Pojednostavni zahtjeve uz Intake",
+        "description": "Značajka dostupna samo u Planeu koja gostima omogućuje stvaranje radnih stavki za pogreške, zahtjeve ili tikete."
+      },
+      "step_one": {
+        "title": "Otvoreni i zatvoreni zahtjevi u Intakeu",
+        "description": "Zahtjevi na čekanju ostaju na kartici Otvoreno, a nakon što ih administrator ili član obradi, premještaju se na karticu Zatvoreno."
+      },
+      "step_two": {
+        "title": "Prihvati ili odbij zahtjev na čekanju",
+        "description": "Prihvati zahtjev kako bi uredio/la radnu stavku i premjestio/la je u projekt ili ga odbij kako bi ga označio/la kao otkazanog."
+      },
+      "step_three": {
+        "title": "Odgođeno za poslije",
+        "description": "Radnu stavku možeš odgoditi i pregledati poslije. Premjestit će se na dno popisa otvorenih zahtjeva."
+      }
+    },
+    "mcp_connectors": {
+      "step_zero": {
+        "title": "Prestani prebacivati kartice. Poveži svoje alate.",
+        "description": "Poveži GitHub i Slack za praćenje PR-ova i sažimanje razgovora izravno u Plane AI."
+      }
+    },
+    "navigation": {
+      "modal": {
+        "title": "Nova zamisao navigacije",
+        "sub_title": "Pametnija i jednostavnija navigacija olakšava istraživanje radnog prostora.",
+        "highlight_1": "Pojednostavljena struktura lijeve ploče za brže pronalaženje",
+        "highlight_2": "Poboljšano globalno pretraživanje za trenutačan pristup svemu",
+        "highlight_3": "Pametnije grupiranje kategorija za bolju jasnoću i fokus",
+        "footer": "Želiš li kratki vodič?"
+      },
+      "step_zero": {
+        "title": "Pronađi sve u trenu",
+        "description": "Pomoću univerzalnog pretraživanja otvori zadatke, projekte, stranice i osobe — bez prekidanja rada."
+      },
+      "step_one": {
+        "title": "Drži ažuriranja pod kontrolom",
+        "description": "Pristigla pošta objedinjuje sva spominjanja, odobrenja i aktivnosti kako ne bi propustio/la važan posao."
+      },
+      "step_two": {
+        "title": "Prilagodi navigaciju",
+        "description": "U postavkama odaberi što ćeš vidjeti i kako ćeš se kretati kroz aplikaciju."
+      }
+    },
+    "actions": {
+      "close": "Zatvori",
+      "next": "Dalje",
+      "back": "Natrag",
+      "done": "Gotovo",
+      "take_a_tour": "Pokreni obilazak",
+      "get_started": "Započni",
+      "got_it": "Jasno"
+    },
+    "seed_data": {
+      "title": "Ovo je tvoj ogledni projekt",
+      "description": "Projekti ti omogućuju upravljanje timovima, zadacima i svime što ti je potrebno za obavljanje posla u radnom prostoru."
+    }
+  },
+  "get_started": {
+    "title": "Bok, {name}, dobro došao/la!",
+    "description": "Ovdje je sve što ti treba za početak rada u Planeu.",
+    "checklist_section": {
+      "title": "Započni",
+      "description": "Postavi radni prostor i brže pretvori svoje ideje u stvarnost.",
+      "checklist_items": {
+        "item_1": {
+          "title": "Stvori projekt"
+        },
+        "item_2": {
+          "title": "Stvori radnu stavku"
+        },
+        "item_3": {
+          "title": "Pozovi članove tima"
+        },
+        "item_4": {
+          "title": "Stvori stranicu"
+        },
+        "item_5": {
+          "title": "Isprobaj Plane AI razgovor"
+        },
+        "item_6": {
+          "title": "Poveži integracije"
+        }
+      }
+    },
+    "team_section": {
+      "title": "Pozovi svoj tim",
+      "description": "Pozovi članove tima i počnite zajedno stvarati."
+    },
+    "integrations_section": {
+      "title": "Proširi mogućnosti radnog prostora",
+      "more_integrations": "Pregledaj dodatne integracije"
+    },
+    "switch_to_plane_section": {
+      "title": "Saznaj zašto timovi prelaze na Plane",
+      "description": "Usporedi Plane s alatima koje danas koristiš i otkrij razliku."
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "account_settings": {
+    "profile": {
+      "change_email_modal": {
+        "title": "Promijeni adresu e-pošte",
+        "description": "Unesi novu adresu e-pošte na koju ćemo poslati poveznicu za potvrdu.",
+        "toasts": {
+          "success_title": "Uspjeh",
+          "success_message": "Adresa e-pošte uspješno je ažurirana. Prijavi se ponovno."
+        },
+        "form": {
+          "email": {
+            "label": "Nova adresa e-pošte",
+            "placeholder": "Unesi adresu e-pošte",
+            "errors": {
+              "required": "Adresa e-pošte je obavezna",
+              "invalid": "Adresa e-pošte nije valjana",
+              "exists": "Adresa e-pošte već postoji. Upotrijebi drugu.",
+              "validation_failed": "Provjera adrese e-pošte nije uspjela. Pokušaj ponovno."
+            }
+          },
+          "code": {
+            "label": "Jedinstveni kod",
+            "placeholder": "123456",
+            "helper_text": "Verifikacijski kod poslan je na tvoju novu adresu e-pošte.",
+            "errors": {
+              "required": "Jedinstveni kod je obavezan",
+              "invalid": "Verifikacijski kod nije valjan. Pokušaj ponovno."
+            }
+          }
+        },
+        "actions": {
+          "continue": "Nastavi",
+          "confirm": "Potvrdi",
+          "cancel": "Odustani"
+        },
+        "states": {
+          "sending": "Slanje"
+        }
+      }
+    },
+    "preferences": {
+      "heading": "Postavke",
+      "description": "Prilagodi aplikaciju načinu na koji radiš"
+    },
+    "notifications": {
+      "heading": "Obavijesti e-poštom",
+      "description": "Prati novosti o radnim stavkama na koje si pretplaćen/a. Uključi ovu opciju za primanje obavijesti.",
+      "select_default_view": "Odaberi zadani prikaz",
+      "compact": "Kompaktno",
+      "full": "Cijeli zaslon"
+    },
+    "security": {
+      "heading": "Sigurnost"
+    },
+    "api_tokens": {
+      "title": "Osobni pristupni tokeni",
+      "description": "Generiraj sigurne API tokene za povezivanje podataka s vanjskim sustavima i aplikacijama."
+    },
+    "activity": {
+      "heading": "Aktivnost",
+      "description": "Prati nedavne radnje i promjene u svim projektima i radnim stavkama."
+    },
+    "connections": {
+      "title": "Veze",
+      "heading": "Veze",
+      "description": "Upravljaj postavkama veza radnog prostora."
+    }
+  },
+  "profile": {
+    "label": "Profil",
+    "page_label": "Tvoj rad",
+    "work": "Rad",
+    "details": {
+      "joined_on": "Datum pridruživanja",
+      "time_zone": "Vremenska zona"
+    },
+    "stats": {
+      "workload": "Opterećenje",
+      "overview": "Pregled",
+      "created": "Stvorene radne stavke",
+      "assigned": "Dodijeljene radne stavke",
+      "subscribed": "Praćene radne stavke",
+      "state_distribution": {
+        "title": "Radne stavke prema stanju",
+        "empty": "Stvori radne stavke kako bi se na grafikonu prikazale prema stanju i omogućile bolju analizu."
+      },
+      "priority_distribution": {
+        "title": "Radne stavke prema prioritetu",
+        "empty": "Stvori radne stavke kako bi se na grafikonu prikazale prema prioritetu i omogućile bolju analizu."
+      },
+      "recent_activity": {
+        "title": "Nedavna aktivnost",
+        "empty": "Nismo pronašli podatke. Provjeri unesene podatke.",
+        "button": "Preuzmi današnju aktivnost",
+        "button_loading": "Preuzimanje"
+      }
+    },
+    "actions": {
+      "profile": "Profil",
+      "security": "Sigurnost",
+      "activity": "Aktivnost",
+      "preferences": "Postavke",
+      "notifications": "Obavijesti",
+      "api-tokens": "Osobni pristupni tokeni",
+      "connections": "Veze"
+    },
+    "tabs": {
+      "summary": "Sažetak",
+      "assigned": "Dodijeljeno",
+      "created": "Stvoreno",
+      "subscribed": "Praćeno",
+      "activity": "Aktivnost"
+    },
+    "empty_state": {
+      "activity": {
+        "title": "Još nema aktivnosti",
+        "description": "Započni stvaranjem nove radne stavke. Dodaj joj pojedinosti i svojstva. Istraži Plane kako bi vidio/la svoju aktivnost."
+      },
+      "assigned": {
+        "title": "Nema radnih stavki koje su ti dodijeljene",
+        "description": "Ovdje možeš pratiti radne stavke koje su ti dodijeljene."
+      },
+      "created": {
+        "title": "Još nema radnih stavki",
+        "description": "Sve radne stavke koje stvoriš prikazat će se ovdje i moći ćeš ih izravno pratiti."
+      },
+      "subscribed": {
+        "title": "Još nema radnih stavki",
+        "description": "Pretplati se na radne stavke koje te zanimaju i prati ih sve ovdje."
+      }
+    }
+  },
+  "themes": {
+    "theme_options": {
+      "system_preference": {
+        "label": "Postavke sustava"
+      },
+      "light": {
+        "label": "Svijetla"
+      },
+      "dark": {
+        "label": "Tamna"
+      },
+      "light_contrast": {
+        "label": "Svijetla s visokim kontrastom"
+      },
+      "dark_contrast": {
+        "label": "Tamna s visokim kontrastom"
+      },
+      "custom": {
+        "label": "Prilagođena tema"
+      }
+    }
+  }
+}

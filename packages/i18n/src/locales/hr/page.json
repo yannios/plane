@@ -1,0 +1,118 @@
+{
+  "page_navigation_pane": {
+    "tabs": {
+      "outline": {
+        "label": "Sadržaj",
+        "empty_state": {
+          "title": "Nema naslova",
+          "description": "Dodaj naslove na ovu stranicu kako bi se prikazali ovdje."
+        }
+      },
+      "info": {
+        "label": "Informacije",
+        "document_info": {
+          "words": "Riječi",
+          "characters": "Znakovi",
+          "paragraphs": "Odlomci",
+          "read_time": "Vrijeme čitanja"
+        },
+        "actors_info": {
+          "edited_by": "Uredio/la",
+          "created_by": "Stvorio/la"
+        },
+        "version_history": {
+          "label": "Povijest verzija",
+          "current_version": "Trenutačna verzija",
+          "highlight_changes": "Istakni promjene"
+        }
+      },
+      "assets": {
+        "label": "Datoteke",
+        "download_button": "Preuzmi",
+        "empty_state": {
+          "title": "Nema slika",
+          "description": "Dodaj slike kako bi se prikazale ovdje."
+        }
+      },
+      "comments": {
+        "label": "Komentari",
+        "empty_state": {
+          "title": "Nema komentara",
+          "description": "Dodaj komentare kako bi se prikazali ovdje."
+        }
+      }
+    },
+    "toasts": {
+      "errors": {
+        "wrong_name": "Naziv za Sticky ne može biti dulji od 100 znakova.",
+        "already_exists": "Već postoji Sticky bez opisa"
+      },
+      "created": {
+        "title": "Sticky je stvoren",
+        "message": "Sticky je uspješno stvoren"
+      },
+      "not_created": {
+        "title": "Sticky nije stvoren",
+        "message": "Sticky nije bilo moguće stvoriti"
+      },
+      "updated": {
+        "title": "Sticky je ažuriran",
+        "message": "Sticky je uspješno ažuriran"
+      },
+      "not_updated": {
+        "title": "Sticky nije ažuriran",
+        "message": "Sticky nije bilo moguće ažurirati"
+      },
+      "removed": {
+        "title": "Sticky je uklonjen",
+        "message": "Sticky je uspješno uklonjen"
+      },
+      "not_removed": {
+        "title": "Sticky nije uklonjen",
+        "message": "Sticky nije bilo moguće ukloniti"
+      }
+    },
+    "open_button": "Otvori navigacijsku ploču",
+    "close_button": "Zatvori navigacijsku ploču",
+    "outline_floating_button": "Otvori sadržaj"
+  },
+  "page_actions": {
+    "move_page": {
+      "submit_button": {
+        "default": "Premjesti",
+        "loading": "Premještanje"
+      },
+      "cannot_move_to_teamspace": "Privatne stranice i stranice za dijeljenje ne mogu se premjestiti u timski prostor.",
+      "placeholders": {
+        "workspace_to_all": "Pretraži projekte i timske prostore",
+        "workspace_to_project": "Pretraži projekte",
+        "project_to_all": "Pretraži projekte i timske prostore",
+        "project_to_project": "Pretraži projekte",
+        "project_to_all_with_wiki": "Pretraži Wiki zbirke, projekte i timske prostore",
+        "project_to_project_with_wiki": "Pretraži Wiki zbirke i projekte"
+      },
+      "toasts": {
+        "success": {
+          "title": "Uspjeh",
+          "message": "Stranica je uspješno premještena."
+        },
+        "error": {
+          "title": "Pogreška",
+          "message": "Stranicu nije bilo moguće premjestiti. Pokušaj ponovno poslije."
+        },
+        "collection_error": {
+          "title": "Premješteno u Wiki",
+          "message": "Stranica je premještena u Wiki, ali je nije bilo moguće dodati u odabranu zbirku. Ostaje u odjeljku Općenito."
+        }
+      }
+    },
+    "remove_from_collection": {
+      "label": "Ukloni iz zbirke",
+      "success_message": "Stranica je uklonjena iz zbirke.",
+      "error_message": "Stranicu nije bilo moguće ukloniti iz zbirke. Pokušaj ponovno."
+    }
+  },
+  "page_content_limit_banner": {
+    "message": "Dosegnuto je ograničenje sadržaja i sinkronizacija uživo je isključena. Stvori novu stranicu ili upotrijebi ugniježđene stranice za nastavak sinkronizacije."
+  }
+}

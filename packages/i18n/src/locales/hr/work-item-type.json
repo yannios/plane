@@ -1,0 +1,477 @@
+{
+  "work_item_types": {
+    "label": "Vrste radnih stavki",
+    "label_lowercase": "vrste radnih stavki",
+    "settings": {
+      "description": "Prilagodi i dodaj vlastita svojstva prema potrebama tima.",
+      "cant_delete_default_message": "Ovu vrstu radne stavke nije moguće izbrisati jer je zadana za ovaj projekt",
+      "set_as_default": "Postavi kao zadano",
+      "cant_set_default_inactive_message": "Aktiviraj ovu vrstu prije nego što je postaviš kao zadanu",
+      "set_default_confirmation": {
+        "title": "Postavi kao zadanu vrstu radne stavke",
+        "description": "Postavljanjem vrste {name} kao zadane uvest će se u sve projekte ovog radnog prostora. Sve nove radne stavke prema zadanim će postavkama upotrebljavati ovu vrstu.",
+        "confirm_button": "Postavi kao zadanu"
+      },
+      "properties": {
+        "title": "Svojstva",
+        "description": "Stvori i prilagodi svojstva.",
+        "tooltip": "Svaka vrsta radne stavke sadrži zadani skup svojstava kao što su naslov, opis, izvođač, stanje, prioritet, datum početka, krajnji rok, modul, ciklus itd. Možeš ih prilagoditi i dodati vlastita svojstva prema potrebama tima.",
+        "add_button": "Dodaj novo svojstvo",
+        "project": {
+          "add_button": {
+            "import_from_workspace": "Uvezi iz radnog prostora"
+          }
+        },
+        "dropdown": {
+          "label": "Vrsta svojstva",
+          "placeholder": "Odaberi vrstu"
+        },
+        "property_type": {
+          "text": {
+            "label": "Tekst"
+          },
+          "number": {
+            "label": "Broj"
+          },
+          "dropdown": {
+            "label": "Padajući izbornik"
+          },
+          "boolean": {
+            "label": "Booleova vrijednost"
+          },
+          "date": {
+            "label": "Datum"
+          },
+          "member_picker": {
+            "label": "Odabir člana"
+          },
+          "formula": {
+            "label": "Formula"
+          }
+        },
+        "attributes": {
+          "label": "Atributi",
+          "text": {
+            "single_line": {
+              "label": "Jedan redak"
+            },
+            "multi_line": {
+              "label": "Odlomak"
+            },
+            "readonly": {
+              "label": "Samo za čitanje",
+              "header": "Podaci samo za čitanje"
+            },
+            "invalid_text_format": {
+              "label": "Nevaljan tekstni format"
+            }
+          },
+          "number": {
+            "default": {
+              "placeholder": "Dodaj broj"
+            }
+          },
+          "relation": {
+            "single_select": {
+              "label": "Odabir jedne mogućnosti"
+            },
+            "multi_select": {
+              "label": "Odabir više mogućnosti"
+            },
+            "no_default_value": {
+              "label": "Nema zadane vrijednosti"
+            }
+          },
+          "boolean": {
+            "label": "Točno | Netočno",
+            "no_default": "Nema zadane vrijednosti"
+          },
+          "option": {
+            "create_update": {
+              "label": "Mogućnosti",
+              "form": {
+                "placeholder": "Dodaj mogućnost",
+                "errors": {
+                  "name": {
+                    "required": "Naziv mogućnosti je obavezan.",
+                    "integrity": "Mogućnost s istim nazivom već postoji."
+                  }
+                }
+              }
+            },
+            "select": {
+              "placeholder": {
+                "single": "Odaberi mogućnost",
+                "multi": {
+                  "default": "Odaberi mogućnosti",
+                  "variable": "Odabrano mogućnosti: {count}"
+                }
+              }
+            }
+          }
+        },
+        "toast": {
+          "create": {
+            "success": {
+              "title": "Uspješno!",
+              "message": "Svojstvo {name} uspješno je stvoreno."
+            },
+            "error": {
+              "title": "Pogreška!",
+              "message": "Stvaranje svojstva nije uspjelo. Pokušaj ponovno."
+            }
+          },
+          "update": {
+            "success": {
+              "title": "Uspješno!",
+              "message": "Svojstvo {name} uspješno je ažurirano."
+            },
+            "error": {
+              "title": "Pogreška!",
+              "message": "Ažuriranje svojstva nije uspjelo. Pokušaj ponovno."
+            }
+          },
+          "delete": {
+            "success": {
+              "title": "Uspješno!",
+              "message": "Svojstvo {name} uspješno je izbrisano."
+            },
+            "error": {
+              "title": "Pogreška!",
+              "message": "Brisanje svojstva nije uspjelo. Pokušaj ponovno."
+            }
+          },
+          "enable_disable": {
+            "loading": "{action} svojstva {name}",
+            "success": {
+              "title": "Uspješno!",
+              "message": "Svojstvo {name} uspješno je {action}."
+            },
+            "error": {
+              "title": "Pogreška!",
+              "message": "{action} svojstva nije uspjelo. Pokušaj ponovno."
+            }
+          }
+        },
+        "create_update": {
+          "title": {
+            "create": "Stvori novo prilagođeno svojstvo",
+            "update": "Ažuriraj prilagođeno svojstvo"
+          },
+          "form": {
+            "display_name": {
+              "placeholder": "Naslov"
+            },
+            "description": {
+              "placeholder": "Opis"
+            }
+          },
+          "errors": {
+            "name": {
+              "required": "Moraš imenovati svojstvo.",
+              "max_length": "Naziv svojstva ne smije imati više od 255 znakova."
+            },
+            "property_type": {
+              "required": "Moraš odabrati vrstu svojstva."
+            },
+            "options": {
+              "required": "Moraš dodati barem jednu mogućnost."
+            },
+            "formula": {
+              "required": "Formula expression is required.",
+              "invalid": "Invalid formula: {error}",
+              "circular_reference": "Circular reference detected. A formula cannot reference itself directly or indirectly.",
+              "invalid_reference": "Formula references non-existent property."
+            }
+          }
+        },
+        "formula": {
+          "field_label": "Polje formule",
+          "tooltip": "Unesi formulu u obliku '{'Naziv polja'}'. Podržani su operatori +, -, *, / i &.",
+          "placeholder": "Napiši formulu",
+          "test_button": "Testiraj",
+          "validating": "Provjera valjanosti",
+          "validation_success": "Formula je valjana! Vraća {resultType}",
+          "validation_success_with_refs": "Formula je valjana! Vraća {resultType} (broj referenciranih polja: {count})",
+          "error": {
+            "empty": "Unesi formulu",
+            "missing_context": "Nedostaje kontekst radnog prostora, projekta ili vrste radne stavke",
+            "validation_failed": "Provjera valjanosti nije uspjela"
+          },
+          "picker": {
+            "no_match": "Nema odgovarajućih svojstava",
+            "no_available": "Nema dostupnih svojstava"
+          }
+        },
+        "enable_disable": {
+          "label": "Aktivno",
+          "tooltip": {
+            "disabled": "Klikni za isključivanje",
+            "enabled": "Klikni za uključivanje"
+          }
+        },
+        "delete_confirmation": {
+          "title": "Izbriši ovo svojstvo",
+          "description": "Brisanje svojstva može uzrokovati gubitak postojećih podataka.",
+          "secondary_description": "Želiš li umjesto toga isključiti svojstvo?",
+          "primary_button": "{action}, izbriši",
+          "secondary_button": "Da, isključi ga"
+        },
+        "mandate_confirmation": {
+          "label": "Obavezno svojstvo",
+          "content": "Za ovo svojstvo postoji zadana mogućnost. Ako ga postaviš kao obavezno, zadana će se vrijednost ukloniti pa će korisnici morati odabrati vlastitu.",
+          "tooltip": {
+            "disabled": "Ovu vrstu svojstva nije moguće postaviti kao obaveznu",
+            "enabled": "Poništi odabir da polje bude neobavezno",
+            "checked": "Odaberi da polje bude obavezno"
+          }
+        },
+        "empty_state": {
+          "title": "Dodaj prilagođena svojstva",
+          "description": "Ovdje će se prikazati nova svojstva dodana ovoj vrsti radne stavke."
+        }
+      },
+      "types": {
+        "title": "Vrste",
+        "description": "Stvori i prilagodi vrste radnih stavki sa svojstvima.",
+        "sort_options": {
+          "project_count": "Broj projekata kojima pripada"
+        },
+        "filter_options": {
+          "show_active": "Prikaži aktivne",
+          "show_inactive": "Prikaži neaktivne"
+        },
+        "project": {
+          "add_button": {
+            "create_new": "Stvori novo",
+            "import_from_workspace": "Uvezi iz radnog prostora"
+          },
+          "banner": {
+            "with_access": "Omogući vrste radnih stavki za uvoz vrsta s razine radnog prostora",
+            "without_access": "Vrste radnih stavki su isključene. Obrati se administratoru radnog prostora da ih omogući u postavkama."
+          }
+        }
+      },
+      "linked_properties": {
+        "title": "Prilagođena svojstva",
+        "add_button": "Dodaj svojstva",
+        "modal": {
+          "title": "Dodaj svojstva",
+          "empty": {
+            "title": "Nema dostupnih svojstava",
+            "description": "Sva svojstva već su povezana s ovom vrstom."
+          }
+        },
+        "unlink_confirmation": {
+          "title": "Odspoji svojstvo",
+          "description": "Odspajanjem ovog svojstva trajno će se izbrisati sve njegove vrijednosti u svim radnim stavkama koje upotrebljavaju ovu vrstu. Ovu radnju nije moguće poništiti.",
+          "input_label": "Upiši",
+          "input_label_suffix": "za nastavak:",
+          "confirm": "Odspoji svojstvo",
+          "loading": "Odspajanje"
+        }
+      },
+      "item_delete_confirmation": {
+        "title": "Izbriši ovu vrstu",
+        "description": "Brisanje vrste može uzrokovati gubitak postojećih podataka.",
+        "can_disable_warning": "Želiš li umjesto toga isključiti vrstu?",
+        "primary_button": "Da, izbriši",
+        "toast": {
+          "success": {
+            "title": "Uspješno!",
+            "message": "Vrsta radne stavke uspješno je izbrisana."
+          },
+          "error": {
+            "title": "Pogreška!",
+            "message": "Brisanje vrste radne stavke nije uspjelo. Pokušaj ponovno."
+          }
+        },
+        "errors": {
+          "cannot_delete_default_work_item_type": "Nije moguće izbrisati zadanu vrstu radne stavke",
+          "cannot_delete_work_item_type_with_associated_work_items": "Nije moguće izbrisati vrstu radne stavke s povezanim radnim stavkama"
+        }
+      }
+    },
+    "create": {
+      "title": "Stvori vrstu radne stavke",
+      "button": "Dodaj vrstu radne stavke",
+      "toast": {
+        "success": {
+          "title": "Uspješno!",
+          "message": "Vrsta radne stavke uspješno je stvorena."
+        },
+        "error": {
+          "title": "Pogreška!",
+          "message": {
+            "default": "Stvaranje vrste radne stavke nije uspjelo. Pokušaj ponovno.",
+            "conflict": "Vrsta {name} već postoji. Odaberi drugi naziv."
+          }
+        }
+      }
+    },
+    "update": {
+      "title": "Ažuriraj vrstu radne stavke",
+      "button": "Ažuriraj vrstu radne stavke",
+      "toast": {
+        "success": {
+          "title": "Uspješno!",
+          "message": "Vrsta radne stavke {name} uspješno je ažurirana."
+        },
+        "error": {
+          "title": "Pogreška!",
+          "message": {
+            "default": "Ažuriranje vrste radne stavke nije uspjelo. Pokušaj ponovno.",
+            "conflict": "Vrsta {name} već postoji. Odaberi drugi naziv."
+          }
+        }
+      }
+    },
+    "create_update": {
+      "form": {
+        "name": {
+          "placeholder": "Dodijeli ovoj vrsti radne stavke jedinstven naziv"
+        },
+        "description": {
+          "placeholder": "Opiši namjenu ove vrste radne stavke i kada je treba upotrijebiti."
+        }
+      }
+    },
+    "enable_disable": {
+      "toast": {
+        "loading": "{action} vrstu radne stavke {name}",
+        "success": {
+          "title": "Uspješno!",
+          "message": "Vrsta radne stavke {name} uspješno je {action}."
+        },
+        "error": {
+          "title": "Pogreška!",
+          "message": "Nije uspjelo {action} vrste radne stavke. Pokušaj ponovno."
+        }
+      },
+      "tooltip": "Klikni za {action}"
+    },
+    "change_confirmation": {
+      "title": "Želiš li promijeniti vrstu radne stavke?",
+      "description": "Promjena vrste radne stavke može uzrokovati gubitak vrijednosti prilagođenih svojstava specifičnih za trenutačnu vrstu. Ovu radnju nije moguće poništiti.",
+      "button": {
+        "loading": "Promjena",
+        "default": "Promijeni vrstu"
+      }
+    },
+    "empty_state": {
+      "enable": {
+        "title": "Enable Work item Types",
+        "description": "Shape work items to your work with Work item types. Customize with icons, backgrounds, and properties and configure them for this project.",
+        "primary_button": {
+          "text": "Enable"
+        },
+        "confirmation": {
+          "title": "Once enabled, Work item Types can't be disabled.",
+          "description": "Plane's Work Item will become the default work item type for this project and will show up with its icon and background in this project.",
+          "button": {
+            "default": "Enable",
+            "loading": "Setting up"
+          }
+        }
+      },
+      "get_pro": {
+        "title": "Get Pro to enable Work item types.",
+        "description": "Shape work items to your work with Work item types. Customize with icons, backgrounds, and properties and configure them for this project.",
+        "primary_button": {
+          "text": "Get Pro"
+        }
+      },
+      "upgrade": {
+        "title": "Upgrade to enable Work item types.",
+        "description": "Shape work items to your work with Work item types. Customize with icons, backgrounds, and properties and configure them for this project.",
+        "primary_button": {
+          "text": "Upgrade"
+        }
+      }
+    }
+  },
+  "work_item_type_hierarchy": {
+    "settings": {
+      "title": "Hierarchy",
+      "tab_label": "Hierarchy",
+      "description": "Set up hierarchy levels to organize your work. Each level defines a parent relationship with the item directly above it and child relationship with the item directly below it. ",
+      "sidebar_label": "Hierarchy",
+      "enable_control": {
+        "title": "Enable hierarchy",
+        "description": "Create parent-child relationships between different work item types.",
+        "tooltip": "You cannot disable hierarchy once it is enabled."
+      },
+      "workspace_work_item_types_disabled_banner": {
+        "content": "Define Work Item Types first to create a new hierarchy.",
+        "cta": "Work item types settings"
+      }
+    },
+    "levels": {
+      "max_level_placeholder": "Drag and drop type to add a new hierarchy level",
+      "empty_level_placeholder": "Drag and drop a work item type to level {level}",
+      "drag_tooltip": "Drag to change level",
+      "quick_actions": {
+        "set_as_default": {
+          "label": "Set as default",
+          "toast": {
+            "loading": "Setting as default...",
+            "success": {
+              "title": "Success!",
+              "message": "Hierarchy level {level} set as default successfully."
+            },
+            "error": {
+              "title": "Error!",
+              "message": "Failed to set hierarchy level {level} as default. Please try again."
+            }
+          }
+        }
+      },
+      "update_level_toast": {
+        "loading": "Moving {workItemTypeName} to level {level}...",
+        "success": {
+          "title": "Success!",
+          "message": "{workItemTypeName} moved to level {level} successfully."
+        }
+      }
+    },
+    "break_hierarchy_modal": {
+      "title": "Validation error!",
+      "content": {
+        "intro": "Work item type {workItemTypeName} has:",
+        "parent_items": "{count, plural, one {parent work item} other {parent work items}}",
+        "child_items": "{count, plural, one {sub-work item} other {sub-work items}}",
+        "parent_line_suffix_when_also_children": ", and ",
+        "footer": "This change will remove parent and child relationships from existing work items of {workItemTypeName} work item type."
+      },
+      "confirm_input": {
+        "label": "Type in \"Confirm\" to continue.",
+        "placeholder": "Confirm"
+      },
+      "error_toast": {
+        "title": "Error!",
+        "message": "Failed to break hierarchy. Please try again."
+      },
+      "confirm_button": {
+        "loading": "Applying",
+        "default": "Apply & Unlink"
+      }
+    },
+    "work_item_modal": {
+      "invalid_work_item_type_create_toast": {
+        "title": "Error!",
+        "message": "The selected work item type cannot be used to create a new work item since it breaks the hierarchy rules."
+      },
+      "invalid_work_item_type_update_toast": {
+        "title": "Error!",
+        "message": "Work item type cannot be updated since it breaks the hierarchy rules."
+      }
+    },
+    "work_item_type_modal": {
+      "level": "Hierarchy level",
+      "invalid_level_toast": {
+        "title": "Error!",
+        "message": "Work item type cannot be updated since it breaks the hierarchy rules."
+      }
+    }
+  }
+}
